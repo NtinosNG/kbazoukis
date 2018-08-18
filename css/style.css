@@ -1,29 +1,17 @@
- @import url('https://fonts.googleapis.com/css?family=Saira:400,700');
+@import url('https://fonts.googleapis.com/css?family=Saira:400,700');
 
-
-  body {
-    background-color: #515151;
-    font-family: 'Open Sans', serif;
-
-  }
 * { color:#fff; text-decoration: none;}
 
-/*  #mymenu .item:hover {
-    background-color: #252525;
-  
-  }
-  
-  #mymenu {
-    background-color: #515151;
- 
-    justify-content: center;
-    align-items: center;
-  }
-*/
-  #mycontainer {
-      background-color: #333333;
-  }
- 
+
+body {
+  background-color: #515151;
+  font-family: 'Open Sans', serif;
+  margin: 1%; 
+}
+
+.mybg {
+  background-color: #333333 !important;
+}
 
 h1,
 h2,
@@ -37,73 +25,16 @@ h6 {
 
 }
 
- h1 {
-   font-size: 6rem;
-  line-height: 5.5rem;
- }
 
-h2 {
-  font-size: 3.5rem;
+#mylist > .container > .item > a:hover {
+  color: #65BDEF !important;
 }
 
-#subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
-}
-
- 
-/*
-  #mymenu > .item  {
-    color: white;
-  }
-
-  #mymenu > a:hover {
-    color: cyan;
-  }*/
-
- #drop, #dropNew {
-    display: none;
-  }
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-}
-
-li a {
-
-
-    text-decoration: none;
-    color: white;
+#mylist > .container .item > a {
+  color: white !important;
 }
 
 li a:hover {
-   
-    color: #65BDEF;
+  color: #65BDEF;
 }
 
-.menu {
-  background-color: #333333 !important;
-  border-style: none !important;
-/*   justify-content: center !important;*/
-}
-
- /* #mymenu {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }*/
-
-    @media only screen and (max-width: 767px) {
-    /*  #mymenu {
-        display: none;
-      }*/
-/*      #drop {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-      }*/
-    }

@@ -1,24 +1,7 @@
-$(document).ready(function(){
 
-var myMenu = $("#mymenu");
-
-  $("#drop").click(function(){
-      $(myMenu).show(300);
-      $('#drop').hide();
-      $('#dropNew').show();
-          // $(myMenu).css("display","inline-flex");
-    });
-  $("#dropNew").click(function(){
-      $(myMenu).hide(300);
-      $('#drop').show();
-      $('#dropNew').hide();
-      // $(myMenu).css("display","inline-flex");
-    });
- 
-});
-
-
-// This Snippet was coded by Simon Shahriveri -> https://codepen.io/hi-im-si/
+/* This Snippet was coded by Simon Shahriver and he owns the rights of this code.
+More info at: https://codepen.io/hi-im-si/
+*/
 
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
