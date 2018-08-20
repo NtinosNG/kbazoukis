@@ -15,19 +15,14 @@
 	<!-- Site Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet"> 
 
-	<!-- Sites Scripts -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
-	<script src="js/script.js"></script>
-
 </head>
 <body>
 
 	<!-- Main container -->
-	<div class="ui raised padded container segment mybg">
+	<div class="ui raised center aligned container segment mybg">
 
 		<!-- Main menu-->
-		<div class="ui center aligned container">
+		<!-- <div class="ui center aligned container"> -->
 
 			<!-- Site Image -->
 			<a href="index.html">
@@ -49,26 +44,40 @@
 			</h2>
 
 			<!-- Site's Navigation -->
-			<div class="ui link list" id="mylist">
-				<div class="ui centered container"> 
-					<div class="item">
-						<i class="info circle icon"></i>
-						<a href="about.html"> About</a>
-					</div>
-					<div class="item">
-						<i class="bookmark outline icon"></i>
-						<a href="#Posts">Posts</a>  
-					</div>
-					<div class="item">
-						<i class="code icon"></i>
-						<a href="#Projects">Projects</a>
-					</div>
-					<div class="item">
-						<i class="user icon"></i>
-						<a href="#Portfolio">Portfolio</a>
-					</div>
-				</div>
+			<div class="ui container">
+				<a href="about.html#contentSection" class="ui labeled icon button" id="mybtn">
+					<i class="info large circle icon"></i> About
+				</a>
 			</div>
+
+			<div class="ui container">
+					<a href="posts.html#contentSection" class="ui labeled icon button" id="mybtn">
+						<i class="bookmark large outline icon"></i> Posts
+					</a>
+				</div>
+
+				<div class="ui container">
+						<a href="projects.html#contentSection" class="ui labeled icon button" id="mybtn">
+							<i class="code large icon"></i> Projects
+						</a>
+					</div>
+					<div class="ui container">
+							<a href="curriculum.html#contentSection" class="ui labeled icon button" id="mybtn">
+								<i class="address card large icon"></i> Curriculum
+							</a>
+						</div>
+					<br>
+
+		<!-- Social Buttons -->
+		<div class="ui horizontal list">
+			<div class="item">
+				<a href="https://linkedin.com/in/kbazoukis" id="social"><i class="linkedin large icon"></i></a>
+			</div>
+			<div class="item">
+				<a href="https://github.com/NtinosNG" id="social"><i class="github large icon"></i></a>
+			</div>
+		</div>
+	
 
 			<!-- Site's Footer -->
 			<div class="ui list">
@@ -82,6 +91,12 @@
 				</div>
 			</div>
 
-		</div>
+		<!-- </div> -->
+</div>
+			<!-- Sites Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+	<script src="js/script.js"></script>
+
 	</body>
 	</html>
