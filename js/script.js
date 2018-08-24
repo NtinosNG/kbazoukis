@@ -1,4 +1,5 @@
 
+// Initalize tabular elements on the CV section
 $('.menu .item')
 .tab();
 
@@ -59,7 +60,7 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite {text-align: center;} .typewrite > .wrap { border-right: 0.08em solid #000; color: black;}";
+        css.innerHTML = ".typewrite {text-align: center !important;} .typewrite > .wrap { border-right: 0.08em solid #000 !important; color: black !important;}";
         document.body.appendChild(css);
     };
 

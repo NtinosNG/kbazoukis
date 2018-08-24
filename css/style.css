@@ -5,9 +5,6 @@
 
 body {
   background: rgb(90, 90, 90) url('../img/blurred.jpg') no-repeat center center fixed !important; 
-    /* background-color: #5e5e5e;  */
-    
-   /* background: rgb(90, 90, 90);  */
   font-family: 'Open Sans', serif;
   margin: 1%; 
 }
@@ -31,7 +28,6 @@ body {
   text-transform: uppercase !important;
 }
 
-
 .tags {
   color:  black !important;
 }
@@ -47,10 +43,6 @@ h6 {
   text-transform: uppercase;
 
 }
-
-/* .meta > span  {
-  color: grey !important;
-} */
 
 .header, .post {
   color:  black !important;
@@ -73,35 +65,28 @@ hr {
 .projmeta {
   text-align: center !important;
 }
-/* 
-#mylist > .container > .item > a:hover {
-  color:   rgb(51, 189, 235) !important;
-}
 
-#mylist > .container .item > a {
-  color: white !important;
-} */
 
 #backbtn {
-  font-size: large;
-  text-decoration: underline;
+  font-size: large !important;
+  text-decoration: underline !important;
   float: right !important;
-  color: white;
+  color: white !important;
 }
 
 #backbtn:hover {
-  color: rgb(51, 189, 235);
+  color: rgb(51, 189, 235) !important;
 }
 
 #social > i:hover {
-  color: rgb(51, 189, 235);
+  color: rgb(51, 189, 235) !important;
 }
 
 #mybtn, #mybtn > i {
-  color: white;
-  background: #303030;
+  color: white !important;
+  background: #303030 !important;
 }
 
 #mybtn:hover {
-  color: rgb(51, 189, 235);
+  color: rgb(51, 189, 235) !important;
 }
