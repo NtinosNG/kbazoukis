@@ -14,65 +14,75 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Site Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+		@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700');
+	</style>
 
 </head>
 
 <body>
 
 	<!-- Main container -->
-	<div class="ui three column stackable grid container">
+	<main class="ui three column stackable grid container">
 
 		<!-- Main menu-->
-		<div class="five wide center aligned column">
-			<div class="ui padded segment mybg">
+		<section class="five wide center aligned column" id="mainMenu">
+			<div class="ui padded segment mainbg">
 
-				<!-- Site Image -->
-				<a href="index.html#contentSection">
-					<div class="ui centered link card">
-						<div class="image">
-							<img src="img/profile.jpg">
+				<header>
+					<!-- Site's Image -->
+					<a href="index.html#contentSection">
+						<div class="ui centered link card">
+							<div class="image">
+								<img src="img/profile.jpg">
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
 
-				<!-- Site's title -->
-				<h1>Konstantinos Bazoukis</h1>
+					<!-- Site's title -->
+					<h1>Konstantinos Bazoukis</h1>
 
-				<!-- Site's subtitle/description -->
-				<h2>Personal Website</h2>
+					<!-- Site's subtitle/description -->
+					<h2>Personal Website</h2>
+				</header>
+
+				<br>
 
 				<!-- Site's Navigation -->
-				<div class="ui container">
-					<a href="posts.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="bookmark large outline icon"></i> Posts
-					</a>
-				</div>
+				<nav class="ui container">
+					<div class="ui container">
+						<a href="posts.html#contentSection" class="ui labeled icon button">
+							<i class="bookmark large outline icon"></i> Posts
+						</a>
+					</div>
 
-				<div class="ui container">
-					<a href="projects.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="code large icon"></i> Projects
-					</a>
-				</div>
-				<div class="ui container">
-					<a href="curriculum.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="address card large icon"></i> Curriculum
-					</a>
-				</div>
+					<div class="ui container">
+						<a href="projects.html#contentSection" class="ui labeled icon button">
+							<i class="code large icon"></i> Projects
+						</a>
+					</div>
+					<div class="ui container">
+						<a href="curriculum.html#contentSection" class="ui labeled icon button">
+							<i class="address card large icon"></i> Curriculum
+						</a>
+					</div>
+				</nav>
+
 				<br>
 
 				<!-- Social Buttons -->
-				<div class="ui horizontal list">
+				<div class="ui horizontal list" id="social">
 					<div class="item">
-						<a href="https://linkedin.com/in/kbazoukis" id="social"><i class="linkedin large icon"></i></a>
+						<a href="https://linkedin.com/in/kbazoukis"><i class="linkedin large icon"></i></a>
 					</div>
 					<div class="item">
-						<a href="https://github.com/NtinosNG" id="social"><i class="github large icon"></i></a>
+						<a href="https://github.com/NtinosNG"><i class="github large icon"></i></a>
 					</div>
 				</div>
 
 				<!-- Site's Footer -->
-				<div class="ui list">
+				<footer class="ui list">
 					<div class="ui centered container">
 						<div class="item">
 							<p>&copy 2018 Konstantinos Bazoukis</p>
@@ -81,197 +91,214 @@
 							<p>All Rights Reserved</p>
 						</div>
 					</div>
-				</div>
+				</footer>
 
 			</div>
-		</div>
+		</section>
 
 		<!-- Divider Column -->
-		<div class="one wide column"></div>
+		<section class="one wide column"></section>
 
 		<!-- Content Section -->
-		<div class=" ten wide column" id="contentSection">
-			<div class="ui padded segment stackable container mybg">
+		<section class=" ten wide column" id="contentSection">
+			<div class="ui padded segment mainbg">
 
 				<!-- Section's Title -->
-				<h2> <i class="address card icon"></i> Curriculum <i class="caret right icon"></i></h2>
+				<h1>
+					<i class="address card icon"></i> Curriculum <i class="caret right icon"></i>
+				</h1>
 
-				<div class="ui compact stackable attached tabular menu cvmenu">
-					<a class="item active" data-tab="experience">Experience</a>
-					<a class="item" data-tab="education">Education</a>
-					<a class="item" data-tab="skills">Skills</a>
-					<a class="item" data-tab="interests">Interests</a>
-				</div>
+				<div class="ui divider"></div>
 
-				<div class="ui attached tab segment active posts" data-tab="experience">
+				<div id="tabMenu">
 
-					<div class="ui raised segment">
-						<div class="ui items">
-							<div class="item">
-								<div class="middle aligned content">
-									<div class="header">SENIOR WEB DEVELOPER</div>
-									<div class="meta">
-										<div class="ui sub header">INTELITEC SOLUTIONS</div>
-									</div>
-									<div class="description">
-										<p class="post">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
-											day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined
-											cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-									</div>
-									<div class="extra">
-										<span class="ui right floated post">March 2013 - Present</span>
+					<div class="ui stackable inverted borderless secondary pointing menu" id="tab">
+						<a class="item active" data-tab="experience">Experience</a>
+						<a class="item" data-tab="education">Education</a>
+						<a class="item" data-tab="skills">Skills</a>
+						<a class="item" data-tab="interests">Interests</a>
+					</div>
+
+					<div class="ui divider"></div>
+
+					<div class="ui tab active" data-tab="experience">
+
+						<article>
+							<div class="ui items">
+								<div class="item">
+									<div class="middle aligned content">
+										<h1>SENIOR WEB Developer</h1>
+										<div class="meta">
+											<h2>INTELITEC SOLUTIONS</h2>
+										</div>
+
+										<div class="description">
+											<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going
+												forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud
+												solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+										</div>
+										<div class="extra">
+											<span class="ui right floated">March 2013 - Present</span>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
+						</article>
 
-					<div class="ui raised segment">
-						<div class="ui items">
-							<div class="item">
-								<div class="middle aligned content">
-									<div class="header">WEB DEVELOPER</div>
-									<div class="meta">
-										<div class="ui sub header">INTELITEC SOLUTIONS</div>
-									</div>
-									<div class="description">
-										<p class="post">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override
-											the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway
-											will close the loop on focusing solely on the bottom line.</p>
-									</div>
-									<div class="extra">
-										<span class="ui right floated post">December 2011 - March 2013</span>
+						<div class="ui divider"></div>
+
+						<article>
+							<div class="ui items">
+								<div class="item">
+									<div class="middle aligned content">
+										<h1>WEB DEVELOPER</h1>
+										<div class="meta">
+											<h2>INTELITEC SOLUTIONS</h2>
+										</div>
+										<div class="description">
+											<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital
+												divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will
+												close the loop on focusing solely on the bottom line.</p>
+										</div>
+										<div class="extra">
+											<span class="ui right floated">December 2011 - March 2013</span>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
+						</article>
 
-					<div class="ui raised segment">
-						<div class="ui items">
-							<div class="item">
-								<div class="middle aligned content">
-									<div class="header">JUNIOR WEB DESIGNER</div>
-									<div class="meta">
-										<div class="ui sub header">SHOUT! MEDIA PRODUCTIONS</div>
-									</div>
-									<div class="description">
-										<p class="post">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
-											day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined
-											cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-									</div>
-									<div class="extra">
-										<span class="ui right floated post">July 2010 - December 2011</span>
+						<div class="ui divider"></div>
+
+						<article>
+							<div class="ui items">
+								<div class="item">
+									<div class="middle aligned content">
+										<h1>JUNIOR WEB DESIGNER</h1>
+										<div class="meta">
+											<h2>SHOUT! MEDIA PRODUCTIONS</h2>
+										</div>
+										<div class="description">
+											<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going
+												forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud
+												solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+										</div>
+										<div class="extra">
+											<span class="ui right floated">July 2010 - December 2011</span>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+						</article>
+
+						<div class="ui divider"></div>
+
+						<article>
+							<div class="ui items">
+								<div class="item">
+									<div class="left aligned content">
+										<h1>WEB DESIGN INTERN</h1>
+										<div class="meta">
+											<h2>SHOUT! MEDIA PRODUCTIONS</h2>
+										</div>
+										<div class="description">
+											<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going
+												forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud
+												solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+										</div>
+										<div class="extra">
+											<span class="ui right floated">September 2008 - June 2010</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+
 					</div>
 
-					<div class="ui raised segment">
+					<article class="ui tab" data-tab="education">
+
 						<div class="ui items">
 							<div class="item">
 								<div class="left aligned content">
-									<div class="header">WEB DESIGN INTERN</div>
+									<h1>UNIVERSITY OF DERBY</h1>
 									<div class="meta">
-										<div class="ui sub header">SHOUT! MEDIA PRODUCTIONS</div>
-									</div>
-									<div class="description">
-										<p class="post">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
-											day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined
-											cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-									</div>
-									<div class="extra">
-										<span class="ui right floated post">September 2008 - June 2010</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="ui bottom attached tab segment posts" data-tab="education">
-					<div class="ui raised segment">
-						<div class="ui items">
-							<div class="item">
-								<div class="left aligned content">
-									<div class="header">UNIVERSITY OF DERBY</div>
-									<div class="meta">
-										<div class="ui sub header">BACHELOR (WITH HONOURS) IN COMPUTER SCIENCE</div>
+										<h2>BACHELOR (HONS) IN COMPUTER SCIENCE</h2>
 									</div>
 									<div class="description">
 										<p class="post">Second Class Honours - Upper Division (2.1)</p>
 									</div>
 									<div class="extra">
-										<span class="ui right floated post">October 2016 - June 2019</span>
+										<span class="ui right floated">October 2016 - June 2019</span>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<div class="ui bottom attached tab segment posts" data-tab="skills">
-					<div class="ui raised segment">
+					</article>
+
+					<article class="ui tab" data-tab="skills">
+
 						<div class="ui items">
 							<div class="item">
 								<div class="left aligned content">
-									<div class="header">PROGRAMMING LANGUAGES & TOOLS</div>
+
+									<h1>PROGRAMMING LANGUAGES & TOOLS</h1>
+
 									<div class="description">
 
 										<div class="ui horizontal stackable list">
 											<div class="item">
-												<i class="js big icon post"></i>
-												<div class="content post">
-													Javascript
+												<i class="js big icon"></i>
+												<div class="content">
+													<p>Javascript</p>
 												</div>
 											</div>
 											<div class="item">
-												<i class="html5 big icon post"></i>
-												<div class="content post">
-													HTML5
+												<i class="html5 big icon"></i>
+												<div class="content">
+													<p>HTML5</p>
 												</div>
 											</div>
 											<div class="item">
-												<i class="css3 big icon post"></i>
-												<div class="content post">
-													CSS3
+												<i class="css3 big icon"></i>
+												<div class="content">
+													<p>CSS3</p>
 												</div>
 											</div>
 											<div class="item">
-												<i class="laravel big icon post"></i>
-												<div class="content post">
-													Laravel
+												<i class="laravel big icon"></i>
+												<div class="content">
+													<p>Laravel</p>
 												</div>
 											</div>
 										</div>
 
-										<h2 class="post">WORKFLOW</h2>
+										<h2>WORKFLOW</h2>
 
 										<div class="ui stackable list">
 											<div class="item">
-												<i class="check large icon post"></i>
-												<div class="content post">
-													Mobile-First, Responsive Design
+												<i class="check large icon"></i>
+												<div class="content">
+													<p>Mobile-First, Responsive Design</p>
 												</div>
 											</div>
 											<div class="item">
-												<i class="check large icon post"></i>
-												<div class="content post">
-													Cross Browser Testing & Debugging
+												<i class="check large icon"></i>
+												<div class="content">
+													<p>Cross Browser Testing & Debugging</p>
 												</div>
 											</div>
 											<div class="item">
-												<i class="check large icon post"></i>
-												<div class="content post">
-													Cross Functional Teams
+												<i class="check large icon"></i>
+												<div class="content">
+													<p>Cross Functional Teams</p>
 												</div>
 											</div>
 											<div class="item">
-												<i class="check large icon post"></i>
-												<div class="content post">
-													Agile Development & Scrum
+												<i class="check large icon"></i>
+												<div class="content">
+													<p>Agile Development & Scrum</p>
 												</div>
 											</div>
 										</div>
@@ -281,29 +308,36 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="ui bottom attached tab segment posts" data-tab="interests">
-					<div class="ui raised segment">
-						<p class="post"> Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-							skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and
-							kayaking.
-						</p>
-						<p class="post">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am
-							an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end
-							web development world.
-						</p>
-					</div>
-				</div>
 
+					</article>
+
+					<article class="ui tab" data-tab="interests">
+
+						<h1>
+							More than a developer!
+						</h1>
+
+						<p> Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and
+							novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+						</p>
+
+						<p>When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring
+							chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web
+							development world.
+						</p>
+
+					</article>
+
+				</div>
 			</div>
+		</section>
 
-		</div>
+	</main>
 
-		<!-- Sites Scripts -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
-		<script src="js/script.js"></script>
+	<!-- Sites Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+	<script src="js/script.js"></script>
 
 </body>
 

@@ -14,8 +14,10 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Site Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+		@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700');
+	</style>
 </head>
 
 <body>
@@ -24,55 +26,62 @@
 	<div class="ui three column stackable grid container">
 
 		<!-- Main menu-->
-		<div class="five wide center aligned column">
-			<div class="ui padded segment mybg">
+		<section class="five wide center aligned column" id="mainMenu">
+			<div class="ui padded segment mainbg">
 
-				<!-- Site Image -->
-				<a href="index.html#contentSection">
-					<div class="ui centered link card">
-						<div class="image">
-							<img src="img/profile.jpg">
+				<header>
+					<!-- Site's Image -->
+					<a href="index.html#contentSection">
+						<div class="ui centered link card">
+							<div class="image">
+								<img src="img/profile.jpg">
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
 
-				<!-- Site's title -->
-				<h1>Konstantinos Bazoukis</h1>
+					<!-- Site's title -->
+					<h1>Konstantinos Bazoukis</h1>
 
-				<!-- Site's subtitle/description -->
-				<h2>Personal Website</h2>
+					<!-- Site's subtitle/description -->
+					<h2>Personal Website</h2>
+				</header>
+
+				<br>
 
 				<!-- Site's Navigation -->
-				<div class="ui container">
-					<a href="posts.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="bookmark large outline icon"></i> Posts
-					</a>
-				</div>
-				<div class="ui container">
-					<a href="projects.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="code large icon"></i> Projects
-					</a>
-				</div>
-				<div class="ui container">
-					<a href="curriculum.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="address card large icon"></i> Curriculum
-					</a>
-				</div>
+				<nav class="ui container">
+					<div class="ui container">
+						<a href="posts.html#contentSection" class="ui labeled icon button">
+							<i class="bookmark large outline icon"></i> Posts
+						</a>
+					</div>
+
+					<div class="ui container">
+						<a href="projects.html#contentSection" class="ui labeled icon button">
+							<i class="code large icon"></i> Projects
+						</a>
+					</div>
+					<div class="ui container">
+						<a href="curriculum.html#contentSection" class="ui labeled icon button">
+							<i class="address card large icon"></i> Curriculum
+						</a>
+					</div>
+				</nav>
 
 				<br>
 
 				<!-- Social Buttons -->
-				<div class="ui horizontal list">
+				<div class="ui horizontal list" id="social">
 					<div class="item">
-						<a href="https://linkedin.com/in/kbazoukis" id="social"><i class="linkedin large icon"></i></a>
+						<a href="https://linkedin.com/in/kbazoukis"><i class="linkedin large icon"></i></a>
 					</div>
 					<div class="item">
-						<a href="https://github.com/NtinosNG" id="social"><i class="github large icon"></i></a>
+						<a href="https://github.com/NtinosNG"><i class="github large icon"></i></a>
 					</div>
 				</div>
 
 				<!-- Site's Footer -->
-				<div class="ui list">
+				<footer class="ui list">
 					<div class="ui centered container">
 						<div class="item">
 							<p>&copy 2018 Konstantinos Bazoukis</p>
@@ -81,63 +90,69 @@
 							<p>All Rights Reserved</p>
 						</div>
 					</div>
-				</div>
+				</footer>
 
 			</div>
-		</div>
+		</section>
 
 		<!-- Divider Column -->
-		<div class="one wide column">
-		</div>
+		<section class="one wide column">
+		</section>
 
 		<!-- Content Section -->
-		<div class=" ten wide column" id="contentSection">
-			<div class="ui padded segment stackable container mybg">
+		<section class=" ten wide column" id="contentSection">
+			<div class="ui padded segment mainbg">
 
 				<!-- Section's Title -->
-				<h2>
+				<h1>
 					<i class="bookmark outline icon"></i> About Hugo <i class="caret down icon"></i>
-					<a id="backbtn" href="./posts.html#contentSection"></i>GoBack</a>
-				</h2>
-				<div class="ui raised segment posts">
+				</h1>
+
+				<div class="ui divider"></div>
+
+				<!-- Content  -->
+				<article id="myContent">
 					<div class="ui items">
 						<div class="item">
 							<div class="middle aligned content">
-								<div class="meta">
-									<div class="ui stackable list">
-										<div class="item">
-											<i class="calendar alternate outline icon post"></i>
-											<div class="content meta">
-												Apr 9,2014
-											</div>
+
+								<div class="ui relaxed horizontal list">
+									<div class="item">
+										<i class="calendar alternate outline icon meta"></i>
+										<div class="content meta">
+											Apr 9, 2014
 										</div>
-										<div class="item">
-											<i class="clock outline icon post"></i>
-											<div class="content meta">
-												10 sec read
-											</div>
+									</div>
+									<div class="item">
+										<i class="clock outline icon meta"></i>
+										<div class="content meta">
+											10 sec read
 										</div>
 									</div>
 								</div>
+
 								<div class="ui divider"></div>
+
 								<div class="description">
-									<p class="post">Hugo is a static site engine written in Go.</p>
-									<p class="post">It makes use of a variety of open source projects including:</p>
-									<ul class="post">
-										<li class="post">Cobra</li>
-										<li class="post">Viper</li>
-										<li class="post">J Walter Weatherman</li>
-										<li class="post">Cast</li>
+									<p>Hugo is a static site engine written in Go.</p>
+									<p>It makes use of a variety of open source projects including:</p>
+									<ul>
+										<li>Cobra</li>
+										<li>Viper</li>
+										<li>J Walter Weatherman</li>
+										<li>Cast</li>
 									</ul>
-									<p class="post"> Learn more and contribute on GitHub.</p>
+									<p> Learn more and contribute on GitHub.</p>
 								</div>
-								<br>
+								<div class="extra">
+									<button onclick="location.href='posts.html#contentSection'" class="ui blue right floated tiny button">Go Back</button>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</article>
 			</div>
-		</div>
+		</section>
 
 	</div>
 

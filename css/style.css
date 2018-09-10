@@ -1,92 +1,152 @@
-@import url('https://fonts.googleapis.com/css?family=Saira:400,700');
-
-* { color:#fff;  text-decoration: none;}
-
+* { color: whitesmoke;  text-decoration: none; margin: 0;}
 
 body {
-  background: rgb(90, 90, 90) url('../img/blurred.jpg') no-repeat center center fixed !important; 
-  font-family: 'Open Sans', serif;
-  margin: 1%; 
+ /* background: rgb(90, 90, 90) url('../img/blurred.jpg') no-repeat center center fixed;  */
+/* dark theme bg */
+ background: rgb(90, 90, 90); 
+/* light theme bg */
+/* background:  rgb(200, 200, 200); */
+font-family: 'Roboto', sans-serif;
+margin: 2%;  
 }
 
-.mybg {
-  background-color: #303030 !important;
-}
-
-.posts, .active {
-  background: #fafafafa !important;
+.meta {
+  font-family: 'Roboto', sans-serif;
 }
 
 
-.cvmenu {
-  background: rgb(140, 140, 140) !important;
+#mainMenu {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.cvmenu > a {
-  font-family: 'Saira Extra Condensed', serif !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
+#contentSection {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.tags {
-  color:  black !important;
+p, 
+ul, 
+li {
+  color: whitesmoke;
+  font-size: 17px;
+  line-height: 27px;
 }
 
-h1,
+
+.mainbg {
+  /* dark them bg */
+  background: #363636 !important;
+  /* light theme bg */
+  /* background: white !important; */
+}
+
+h1, 
 h2,
-h3,
+h3, 
 h4,
-h5,
+h5, 
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
-.header, .post {
-  color:  black !important;
+/* #mainMenu h1 {
+  font-size: 2.5rem;
 }
 
-hr {
-  display: block;
-  height: 0.5px;
-  border: 0;
-  border-top: 0.5px solid #fafafafa;
-  margin: 0.5em 0;
-  padding: 0; 
+#mainMenu h2 {
+  font-size: 1.8rem;
+} */
+
+nav a, 
+nav i {
+  color: whitesmoke !important;
+  background: #363636 !important;
 }
 
-.projhead {
-  text-align: center;
-  font-size: x-large;
-}
-
-.projmeta {
-  text-align: center !important;
-}
-
-
-#backbtn {
-  font-size: large !important;
-  text-decoration: underline !important;
-  float: right !important;
-  color: white !important;
-}
-
-#backbtn:hover {
+nav a:hover,
+nav i:hover,
+#social i:hover {
   color: rgb(51, 189, 235) !important;
 }
 
-#social > i:hover {
-  color: rgb(51, 189, 235) !important;
+footer p {
+  color: whitesmoke;
+  font-size: 12px;
+  line-height: 22px;
 }
 
-#mybtn, #mybtn > i {
-  color: white !important;
-  background: #303030 !important;
+
+#myContent, .menu {
+/* dark theme bg */
+background: #363636 !important;
+/* light theme bg */
+ /* background: white; */
 }
 
-#mybtn:hover {
-  color: rgb(51, 189, 235) !important;
+
+h1, 
+#contentSection h1 >  i {
+  color: #ffffe0 !important;
+}
+
+ h2,
+ #myContent > h2 > sup > i {
+  color: lightskyblue !important;
+} 
+
+#tabMenu span, 
+#myContent span,
+.meta {
+  color: lightcyan !important;
+} 
+
+#tab {
+  background: #424242 !important;
+}
+
+/* #myContent i {
+color: whitesmoke;
+} */
+
+
+/* @media screen and (max-width: 1200px){
+p, 
+ul, 
+li {
+  font-size: 16px;
+  line-height: 26px;
+}
+#mainMenu h1 {
+  font-size: 2.2rem;
+}
+
+#mainMenu h2 {
+  font-size: 1.7rem;
+}
+}
+
+@media screen and (max-width: 995px) {
+  p, 
+  ul, 
+  li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #mainMenu h1 {
+    font-size: 2rem;
+  }
+  
+  #mainMenu h2 {
+    font-size: 1.65rem;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+body {
+  margin: 0;
+}
+
 }

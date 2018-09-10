@@ -60,7 +60,7 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite {text-align: center !important;} .typewrite > .wrap { border-right: 0.08em solid #000 !important; color: black !important;}";
+        css.innerHTML = ".typewrite {text-align: center; font-size: 2rem; color: #ffffe0 !important;} .typewrite > .wrap { border-right: 0.08em solid #ffffe0; }";
         document.body.appendChild(css);
     };
 

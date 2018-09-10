@@ -14,65 +14,74 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Site Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+		@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700');
+	</style>
 </head>
 
 <body>
 
 	<!-- Main container -->
-	<div class="ui three column stackable grid container">
+	<main class="ui three column stackable grid container">
 
 		<!-- Main menu-->
-		<div class="five wide center aligned column">
-			<div class="ui padded segment mybg">
+		<section class="five wide center aligned column" id="mainMenu">
+			<div class="ui padded segment mainbg">
 
-				<!-- Site's Image -->
-				<a href="index.html#contentSection">
-					<div class="ui centered link card">
-						<div class="image">
-							<img src="img/profile.jpg">
+				<header>
+					<!-- Site's Image -->
+					<a href="index.html#contentSection">
+						<div class="ui centered link card">
+							<div class="image">
+								<img src="img/profile.jpg">
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
 
-				<!-- Site's title -->
-				<h1>Konstantinos Bazoukis</h1>
+					<!-- Site's title -->
+					<h1>Konstantinos Bazoukis</h1>
 
-				<!-- Site's subtitle/description -->
-				<h2>Personal Website</h2>
+					<!-- Site's subtitle/description -->
+					<h2>Personal Website</h2>
+				</header>
+
+				<br>
 
 				<!-- Site's Navigation -->
-				<div class="ui container">
-					<a href="posts.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="bookmark large outline icon"></i> Posts
-					</a>
-				</div>
+				<nav class="ui container">
+					<div class="ui container">
+						<a href="posts.html#contentSection" class="ui labeled icon button">
+							<i class="bookmark large outline icon"></i> Posts
+						</a>
+					</div>
 
-				<div class="ui container">
-					<a href="projects.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="code large icon"></i> Projects
-					</a>
-				</div>
-				<div class="ui container">
-					<a href="curriculum.html#contentSection" class="ui labeled icon button" id="mybtn">
-						<i class="address card large icon"></i> Curriculum
-					</a>
-				</div>
+					<div class="ui container">
+						<a href="projects.html#contentSection" class="ui labeled icon button">
+							<i class="code large icon"></i> Projects
+						</a>
+					</div>
+					<div class="ui container">
+						<a href="curriculum.html#contentSection" class="ui labeled icon button">
+							<i class="address card large icon"></i> Curriculum
+						</a>
+					</div>
+				</nav>
+
 				<br>
 
 				<!-- Social Buttons -->
-				<div class="ui horizontal list">
+				<div class="ui horizontal list" id="social">
 					<div class="item">
-						<a href="https://linkedin.com/in/kbazoukis" id="social"><i class="linkedin large icon"></i></a>
+						<a href="https://linkedin.com/in/kbazoukis"><i class="linkedin large icon"></i></a>
 					</div>
 					<div class="item">
-						<a href="https://github.com/NtinosNG" id="social"><i class="github large icon"></i></a>
+						<a href="https://github.com/NtinosNG"><i class="github large icon"></i></a>
 					</div>
 				</div>
 
 				<!-- Site's Footer -->
-				<div class="ui list">
+				<footer class="ui list">
 					<div class="ui centered container">
 						<div class="item">
 							<p>&copy 2018 Konstantinos Bazoukis</p>
@@ -81,37 +90,38 @@
 							<p>All Rights Reserved</p>
 						</div>
 					</div>
-				</div>
+				</footer>
 
 			</div>
-		</div>
+		</section>
 
 		<!-- Divider Column -->
-		<div class=" one wide column"></div>
+		<section class=" one wide column"></section>
 
 		<!-- Content Section -->
-		<div class=" ten wide column" id="contentSection">
-			<div class="ui padded segment mybg">
+		<section class=" ten wide column" id="contentSection">
+			<div class="ui padded segment mainbg">
 
 				<!-- Section's Title -->
-				<h2> <i class="info circle icon"></i> About Me <i class="caret right icon"></i></h2>
-				<div class="ui raised segment posts">
-					<h2>
-						<p class="typewrite" data-period="2000" data-type='[ "Hi, I am Konstantinos.", "I am Creative.", "I Love Hacks.", "I Love to Develop." ]'>
-							<span class="wrap"></span>
-						</p>
-					</h2>
-					<hr>
-					<p class="post">
+				<h1> <i class="info circle icon"></i> About Me <i class="caret right icon"></i></h1>
+
+				<div class="ui divider"></div>
+
+				<!-- content -->
+				<article id="myContent">
+					<h1 class="typewrite" data-period="2000" data-type='[ "Hi, I am Konstantinos.", "I am Creative.", "I Love Hacks.", "I Love to Develop." ]'>
+						<span class="wrap"></span>
+					</h1>
+					<p>
 						I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches
 						to corporate strategy foster collaborative thinking to further the overall value proposition.
 					</p>
-				</div>
+				</article>
 
 			</div>
-		</div>
+		</section>
 
-	</div>
+	</main>
 
 	<!-- Sites Scripts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
