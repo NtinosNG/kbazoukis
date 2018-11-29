@@ -1,5 +1,5 @@
 # My Personal Website
-* ## _Find out who I am and what I have done_.
+### _Find out who I am and what I have done_.
 
 The website is written in HTML and uses SemanticUI (https://semantic-ui.com/) CSS framework for styling. The design was inspired by various minimalistic themes (https://themes.gohugo.io/tags/minimal/) for Hugo open-source static site generator (https://gohugo.io). 
 
