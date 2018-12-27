@@ -103,6 +103,10 @@ h1,
   color: lightcyan !important;
 } 
 
+#tab >  .active  {
+  color:  rgb(51, 189, 235) !important;
+}
+
 #tab {
   background: #424242 !important;
 }
