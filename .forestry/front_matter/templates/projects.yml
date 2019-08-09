@@ -32,4 +32,5 @@ fields:
   default: []
   label: Categories
 pages:
+- content/project/University/Year 1/visual-c-calculator-console-application.md
 - content/project/_index.md
