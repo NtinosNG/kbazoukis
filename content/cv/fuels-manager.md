@@ -1,7 +1,6 @@
 +++
 date = "2019-08-09T00:00:00+03:00"
 description = "Apart from managing the fuels station, I also worked as a warehouse and administrative assistant."
-draft = true
 location = "Aigio, Greece"
 moreContent = true
 postType = "CV"

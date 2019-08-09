@@ -38,7 +38,7 @@ fields:
   name: description
   label: description
 pages:
-- content/cv/computer-technician.md
-- content/cv/fuels-manager.md
 - content/cv/labourer.md
+- content/cv/fuels-manager.md
+- content/cv/computer-technician.md
 - content/cv/_index.md
