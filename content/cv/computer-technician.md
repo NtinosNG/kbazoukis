@@ -11,8 +11,6 @@ tabTitle = "Experience"
 title = "Computer Technician"
 
 +++
-\- Diagnosis of complex computer hardware and software problems, installation of operating systems (Windows, Linux), building computers from scratch, installation and configuration of networks (LAN-WAN-CABLE), installation of Linux Server (Ubuntu LEMP).
-
-\- Inserting products on an ERP system, managing and updating a website.
-
-\- Some customer service experience in computer related products.
+* Diagnosis of complex computer hardware and software problems, installation of operating systems (Windows, Linux), building computers from scratch, installation and configuration of networks (LAN-WAN-CABLE), installation of Linux Server (Ubuntu LEMP).
+* Inserting products on an ERP system, managing and updating a website.
+* Some customer service experience in computer related products.
