@@ -1,0 +1,112 @@
+# Your site's URL root folder. 
+#
+# For example, if your site is going to be served 
+# from whithin a folder such as "mysite", then you
+# should type the base url as:
+# 
+# http://sitedomain/mysite or https://sitedomain/mysite if you have a certificate
+#
+# This is important because Hugo will generate all the links
+# in your site relative to the baseURL typed here.
+
+baseURL = "https://kbazoukis.com"
+
+theme = "self"
+
+# The default is English 
+languageCode = "en-us"
+
+# Your site's title
+title = "Konstantinos Bazoukis - Personal Website"
+
+# For displaying the copyright on the footer
+copyright = "&copy; Konstantinos Bazoukis"
+
+# Set a number where pagination starts
+paginate = 3
+
+# Google Analytics. Create an account and add your tracking ID to use.
+# Enable it by changing the analytics parameter at the [params] section to true.
+googleAnalytics = "UA-143623195-1"
+
+# Disqus commenting. Create a free account and add your shortname to use.
+# Enable it by changing the comments parameter at the [params] section to true.
+disqusShortname = "kbazoukis"
+
+[params]
+
+	# Enable Google Analytics
+	analytics = true
+
+	# Enable Disqus Commenting
+	comments = true
+
+	# Enable copyright year (add `true` to enable)
+	# The year changes automatically
+	year = "true"
+
+    # By default the homepage is the About page,
+	# however, if you want you can enable posts on
+	# the homepage as well, just remove the disabled
+	# parameter of the `HomePosts` variable below. 
+	# Notice, that if homeposts are enabled it will show,
+	# all the posts from all sections including those that
+	# have been made on the index page.
+	HomePosts = "disable"
+
+    # Enable Posts and Projects counter after the section's
+    # title. To disable it, add to the variable `disable` or
+    # leave it blank to enable
+    postsCounter = ""
+
+    # Enable CV counter after the section's title.
+    # To disable it, add to the variable `disable` or
+    # leave it blank to enable
+    cvCounter = "disable"
+
+    # Add your name
+    author = "Konstantinos Bazoukis"
+
+	# For the profile image, add the "name-of-your-image.extension" after the 
+    # /uploads/ directory on the profileImage parameter below
+    profileImage = "/uploads/profile1.jpg"
+
+    # Add your site's title
+    siteName = "Konstantinos Bazoukis"
+
+    # Add your site's description
+    description = "Personal Website"
+
+    # Add the links of the social sites you want on your menu section
+    # If you don't want a specific account just add "disable" 
+    # To disable all social buttons just add "true" to the `AllDisabled` variable
+
+    AllDisabled = "false"
+    linkedin = "https://linkedin.com/in/kbazoukis"
+    github = "https://github.com/NtinosNG"
+    facebook = "disable"
+    instagram = "disable"
+    twitter = "disable"
+    snapchat = "disable"
+    mail = "konstantinos.bazoukis@gmail.com"
+
+
+    # If you don't want the curriculum section just add `false`
+    cv ="true"
+
+    # Tabs definition for the CV section. Set it up if cv="true"
+    # There are five tabs supported at the moment based on the
+    # most usual categories that are used in curriculums.
+    # However, the reasons for creating this section is to provide a more
+    # dynamic cv and therefore you can add as much content as you
+    # need in each tab and adjust it as you like. Thus, if a category doesn't 
+    # suit you, for example, if instead of awards you want to add
+    # Languages or Seminars, you can easily change that tab below and
+    # add corresponding content. The whole section supports both list and single
+    # pages you can expect the same experience as with the other sections.
+
+    tab1 = "Experience"
+    tab2 = "Education"
+    tab3 = "Skills"
+    tab4 = "Awards"
+    tab5 = "Interests"

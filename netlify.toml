@@ -1,0 +1,9 @@
+[build.environment]
+  HUGO_VERSION = "0.55.6"
+
+
+[[redirects]]
+  from = "https://kbazoukis.netlify.com"
+  to = "https://kbazoukis.com"
+  status = 200
+  force = true
