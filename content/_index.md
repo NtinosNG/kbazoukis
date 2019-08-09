@@ -1,11 +1,10 @@
 ---
-title: "About"
-postType: "About"
-subtitle: "This is a subtitle."
-draft: false
-description: "Description was not provided."
+title: About
+postType: About
+subtitle: Hi, I'm Konstantinos! I have the capacity to Geek! :D
+description: Description was not provided.
 tags: []
 categories: []
----
 
-Write something about yourself.
+---
+Welcome to my personal site! 
