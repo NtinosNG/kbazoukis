@@ -1,0 +1,41 @@
+---
+label: Curriculum
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: postType
+  label: postType
+  default: CV
+  config:
+    required: false
+  hidden: true
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: tabTitle
+  label: tabTitle
+  config:
+    required: true
+  description: Tab title is based on the tabs that exist on the curriculum section,
+    e.g. Experience, Education etc.
+- type: text
+  name: startFinishDate
+  label: startFinishDate
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: moreContent
+  label: moreContent
+- type: text
+  name: location
+  label: location
+- type: text
+  name: description
+  label: description
+pages:
+- content/cv/_index.md

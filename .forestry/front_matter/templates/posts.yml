@@ -1,0 +1,46 @@
+---
+label: Posts
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: posttype
+  type: text
+  config:
+    required: false
+  label: Post Type
+  hidden: true
+  default: Post
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  default: Description was not provided.
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+pages:
+- content/post/_index.md

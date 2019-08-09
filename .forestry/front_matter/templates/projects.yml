@@ -1,0 +1,35 @@
+---
+label: Projects
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: postType
+  label: postType
+  default: Project
+  hidden: true
+- type: text
+  name: subtitle
+  label: subtitle
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: img_preview
+  label: img_preview
+  default: "/uploads/placeholder.jpg"
+- type: text
+  name: description
+  label: description
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+pages:
+- content/project/_index.md
