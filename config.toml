@@ -69,7 +69,7 @@ disqusShortname = "kbazoukis"
 
 	# For the profile image, add the "name-of-your-image.extension" after the 
     # /uploads/ directory on the profileImage parameter below
-    profileImage = "/uploads/LinkedIn-Profile.jpg"
+    profileImage = "/uploads/profile1.jpg"
 
     # Add your site's title
     siteName = "Konstantinos Bazoukis"
