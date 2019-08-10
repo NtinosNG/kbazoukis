@@ -1,6 +1,7 @@
 +++
 date = "2019-08-10T00:00:00+03:00"
 description = "Technical skills regarding computer repairing, software and networks installation etc."
+draft = true
 location = ""
 moreContent = true
 postType = "CV"
