@@ -12,7 +12,7 @@ title = "Interests"
 +++
 <br/>
 
-As person of technology, my interests in general are more "geeky" that most non-technical people! I like **watching movies and TV shows** (a bit fanatically! :D), playing **video games**, reading **comic books**, experimenting with **DIY** stuff, exploring **new technologies** such as programming languages, tools, Linux distros and other!
+As person of technology, my interests in general are more "geeky" than most non-technical people! I like **watching movies and TV shows** (a bit fanatically! :D), playing **video games**, reading **comic books**, experimenting with **DIY** stuff, exploring **new technologies** such as programming languages, tools, Linux distros and other!
 
 However, apart from the part of my life that involves technology (and generally looking at a screen), I do enjoy other things that most people like!
 
