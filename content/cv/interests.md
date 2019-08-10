@@ -12,12 +12,12 @@ title = "Interests"
 +++
 <br/>
 
-As person of technology, my interests in general are more "geeky" than most non-technical people! I like **watching movies and TV shows** (a bit fanatically! :D), playing **video games**, reading **comic books**, experimenting with **DIY** stuff, exploring **new technologies** such as programming languages, tools, Linux distros and other!
+As person of technology, my interests in general are more "geeky" than most non-technical people! I like watching **movies** and **TV shows** (a bit fanatically! :D), playing **video games**, reading **comic books**, experimenting with **DIY** stuff, exploring **new technologies** such as programming languages, tools, Linux distros and other!
 
 However, apart from the part of my life that involves technology (and generally looking at a screen), I do enjoy other things that most people like!
 
 I like **travelling** as I can explore other cultures and their lifestyles.
 
-In my daily routine, I always try to find some time to do outdoors **exercise** as it is a very refreshing change of pace and it's also good for health. My activities are mainly **cycling and running**, although, I do also enjoy **swimming** at the beach during summertime.
+In my daily routine, I always try to find some time to do outdoors **exercise** as it is a very refreshing change of pace and it's also good for health. My activities are mainly **cycling** and **running**, although, I do also enjoy **swimming** at the beach during summertime.
 
-In my spare time, I try to do covers of favourite songs with my **guitar** in order to improve my playing. Sometimes I find myself exploring the city in order to **discover new "cool" places**. I like (re)visiting **museums and tourist attractions**, and like most people, I really like **hanging out with friends** and doing things together!
+In my spare time, I try to do **covers** of favourite songs with my **guitar** in order to improve my playing. Sometimes I find myself exploring the city in order to **discover new "cool" places**. I like (re)visiting **museums** and **tourist attractions**, and like most people, I really like **hanging out with friends** and doing things together!
