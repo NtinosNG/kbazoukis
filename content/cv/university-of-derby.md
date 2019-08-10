@@ -40,6 +40,6 @@ title = "University of Derby"
 
 ### More Information
 
-The studies took place at [**Mediterranean College**](https://www.medcollege.edu.gr/en/mediterranean-college/our-profile/), which offers bachelor and master degree courses in collaboration with University of Derby among others.
+The studies took place at [**Mediterranean College**](https://www.medcollege.edu.gr/en/mediterranean-college/our-profile/), which offers **bachelor** and **master** degree courses in collaboration with **University of Derby** among others.
 
-For more info regarding the aforementioned partnership between visit this [**link**](https://www.derby.ac.uk/business-services/partnership-opportunities/international-partnerships/mediterranean-college/).
+For more info regarding the aforementioned partnership visit this [**link**](https://www.derby.ac.uk/business-services/partnership-opportunities/international-partnerships/mediterranean-college/).
