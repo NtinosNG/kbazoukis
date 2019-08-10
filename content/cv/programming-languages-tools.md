@@ -1,6 +1,7 @@
 +++
 date = ""
 description = "Skills learned based on experience with specific programming languages and tools."
+draft = true
 location = ""
 moreContent = true
 postType = "CV"
