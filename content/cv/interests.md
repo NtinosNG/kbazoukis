@@ -6,7 +6,7 @@ location = ""
 moreContent = false
 postType = "CV"
 startFinishDate = ""
-subtitle = "Being a \"geek\" doesn't mean you can't enjoy everyday stuff!"
+subtitle = "Being a \"geek\" doesn't mean you can't enjoy more \"mainstream\" activities!"
 tabTitle = "Interests"
 title = "Interests"
 
@@ -17,7 +17,7 @@ Apart from the part of my life that involves technology (and generally looking a
 
 I like **travelling** as I can explore other cultures and their lifestyles. 
 
-In my daily routine, I always try to find some time to do outdoors **excersise** as it is a very refreshing change of pace and it's also good for health. My activities are mainly cycling and running, although, I do also enjoy swimming at the beach during summertime.
+In my daily routine, I always try to find some time to do outdoors **excersise** as it is a very refreshing change of pace and it's also good for health. My activities are mainly cycling and running, although, I do also enjoy swimming at the beach during summertime. 
 
 Finally, I really like hanging out with friends and doing stuff together!
 
