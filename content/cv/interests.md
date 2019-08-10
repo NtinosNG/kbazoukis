@@ -21,4 +21,4 @@ I like **travelling** as I can explore other cultures and their lifestyles.
 
 In my daily routine, I always try to find some time to do outdoors **excersise** as it is a very refreshing change of pace and it's also good for health. My activities are mainly **cycling and running**, although, I do also enjoy **swimming** at the beach during summertime.
 
-In my spare time, I try to do covers of favourite songs with my **guitar** in order to improve my playing, sometimes I find myself exploring the city in order to **discover new "cool" places**, sometimes I like (re)visiting **museums and tourist attractions**, and like most people, I really like **hanging out with friends** and doing things together!
+In my spare time, I try to do covers of favourite songs with my **guitar** in order to improve my playing. Sometimes I find myself exploring the city in order to **discover new "cool" places**. I like (re)visiting **museums and tourist attractions**, and like most people, I really like **hanging out with friends** and doing things together!
