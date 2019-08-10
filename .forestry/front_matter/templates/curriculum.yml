@@ -38,9 +38,9 @@ fields:
   name: description
   label: description
 pages:
+- content/cv/computer-repair.md
 - content/cv/interests.md
 - content/cv/level-4-scholarship.md
-- content/cv/computer-repair.md
 - content/cv/university-of-derby.md
 - content/cv/best-presentation-award.md
 - content/cv/programming-languages-tools.md
