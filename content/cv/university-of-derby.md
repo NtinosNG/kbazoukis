@@ -2,7 +2,7 @@
 date = "2019-08-10T15:41:32+03:00"
 description = "Grade: First Class Honours"
 draft = true
-location = "Mediterranean College, Thessaloniki, GR"
+location = "Thessaloniki, Greece"
 moreContent = true
 postType = "CV"
 startFinishDate = "October 2016 - June 2019"
@@ -41,4 +41,6 @@ title = "University of Derby"
 
 ### More Information
 
-For more info regarding the partnership between Mediterranean college and Derby university visit this [**link**](https://www.derby.ac.uk/business-services/partnership-opportunities/international-partnerships/mediterranean-college/).
+The studies took place at [**Mediterranean College**](https://www.medcollege.edu.gr/en/mediterranean-college/our-profile/), which offers bachelor and master degree courses in collaboration with University of Derby among others.
+
+For more info regarding the aforementioned partnership between visit this [**link**](https://www.derby.ac.uk/business-services/partnership-opportunities/international-partnerships/mediterranean-college/).
