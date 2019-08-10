@@ -1,7 +1,6 @@
 +++
 date = "2019-08-10T15:41:32+03:00"
 description = "Grade: First Class Honours"
-draft = true
 location = "Thessaloniki, Greece"
 moreContent = true
 postType = "CV"
