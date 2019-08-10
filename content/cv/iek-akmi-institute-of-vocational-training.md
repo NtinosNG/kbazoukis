@@ -8,7 +8,7 @@ postType = "CV"
 startFinishDate = "October 2008 - June 2010"
 subtitle = "Certificate of Vocational Training in Structural Engineering"
 tabTitle = "Education"
-title = "IEK AKMI (Institute of Vocational Training)"
+title = "IEK AKMI"
 
 +++
 ### Subjects Studied:
