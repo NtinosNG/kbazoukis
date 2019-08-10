@@ -10,7 +10,7 @@ tabTitle = "Awards"
 title = "Level 4 Scholarship"
 
 +++
-### Scholarship for achieving high grades at the programme:
+### Scholarship for achieving the highest grades at the programme:
 
 **“BSc (Hons) in Computer Science - Level 4”**
 
