@@ -38,6 +38,7 @@ fields:
   name: description
   label: description
 pages:
+- content/cv/interests.md
 - content/cv/best-presentation-award.md
 - content/cv/level-4-scholarship.md
 - content/cv/programming-languages-tools.md
