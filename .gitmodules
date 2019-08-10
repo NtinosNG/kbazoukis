@@ -1,0 +1,3 @@
+[submodule "themes/self"]
+	path = themes/self
+	url = https://gitlab.com/NtinosNG/self.git
