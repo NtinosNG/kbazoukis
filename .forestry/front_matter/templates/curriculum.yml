@@ -38,8 +38,8 @@ fields:
   name: description
   label: description
 pages:
-- content/cv/university-of-derby.md
 - content/cv/iek-akmi-institute-of-vocational-training.md
+- content/cv/university-of-derby.md
 - content/cv/computer-technician.md
 - content/cv/fuels-manager.md
 - content/cv/labourer.md
