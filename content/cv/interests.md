@@ -11,6 +11,8 @@ tabTitle = "Interests"
 title = "Interests"
 
 +++
+<br/>
+
 Apart from the part of my life that involves technology (and generally looking at a screen!), I actually enjoy doing other things that most people like!
 
 I like **travelling** as I can explore other cultures and their lifestyles. 
