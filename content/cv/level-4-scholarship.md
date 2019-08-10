@@ -15,4 +15,4 @@ title = "Level 4 Scholarship"
 
 **“BSc (Hons) in Computer Science - Level 4”**
 
-{{< figure src="/uploads/level4-award.jpg" width="100%" title="Level 4 Scholarship" link="https://kbazoukis.com/uploads/level4-award.jpg" target="_blank" >}}
+<a href="https://kbazoukis.com/uploads/level4-award.jpg" target="_blank" >
