@@ -5,7 +5,7 @@ location = "Thessaloniki, Greece"
 moreContent = true
 postType = "CV"
 startFinishDate = "October 2016 - June 2019"
-subtitle = "Bachelor (Honours) in Computer Science"
+subtitle = "BSc (Hons) in Computer Science"
 tabTitle = "Education"
 title = "University of Derby"
 
