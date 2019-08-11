@@ -14,4 +14,4 @@ title = "Level 4 Scholarship"
 
 **“BSc (Hons) in Computer Science - Level 4”**
 
-See the <a href="https://kbazoukis.com/uploads/level4-award.jpg" target="_blank" >document</a>
+See the <a href="https://kbazoukis.com/uploads/level4-award.jpg" target="_blank" >certificate</a>.
