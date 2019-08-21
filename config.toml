@@ -87,7 +87,9 @@ disqusShortname = "kbazoukis"
     facebook = "disable"
     instagram = "disable"
     twitter = "disable"
-    snapchat = "disable"
+    skype = "disable"                                   # https://join.skype.com/invite/lEP3adxuB02D
+    gitlab = "https://gitlab.com/NtinosNG"
+    bitbucket = "https://bitbucket.org/ntinosng/"
     mail = "konstantinos.bazoukis@gmail.com"
 
 
