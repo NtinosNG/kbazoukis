@@ -1,5 +1,5 @@
 +++
-date = "2019-08-10T15:41:32+03:00"
+date = 2019-08-10T12:41:32Z
 description = "Grade: First Class Honours"
 location = "Thessaloniki, Greece"
 moreContent = true
@@ -42,4 +42,4 @@ title = "University of Derby"
 
 The studies took place at [**Mediterranean College**](https://www.medcollege.edu.gr/en/mediterranean-college/our-profile/), which offers **bachelor** and **master** degree courses in collaboration with **University of Derby** among others.
 
-For more info regarding the aforementioned partnership visit this [**link**](https://www.derby.ac.uk/business-services/partnership-opportunities/international-partnerships/mediterranean-college/).
+For more info regarding the aforementioned partnership visit this [**link**](https://www.derby.ac.uk/partnerships/international-collaborative/mediterranean-college/).
