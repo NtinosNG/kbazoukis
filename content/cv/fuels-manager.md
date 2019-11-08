@@ -1,28 +1,28 @@
 +++
-date = "2019-08-09T00:00:00+03:00"
-description = "Apart from managing the fuels station, I also worked as a warehouse and administrative assistant."
+date = 2019-08-08T21:00:00Z
+description = "Apart from supervising the petrol station, I also worked as a warehouse and administrative assistant."
 location = "Aigio, Greece"
 moreContent = true
 postType = "CV"
 startFinishDate = "September 2014 - August 2015"
 subtitle = "AKTOR Construction"
 tabTitle = "Experience"
-title = "Fuels Manager"
+title = "Petrol Station Supervisor"
 
 +++
-### Fuels Manager
+### Petrol Station Supervisor
 
-* Fueling up all kinds of vehicles at the construction site.
-* Monitoring petroleum levels in the oil tanks.
+* Upgraded the existing document-based record keeping to a digital one by using MS Excel.
+* Fueling up to 100 vehicles every day; constantly improving communication skills by interacting with all kinds of customers.
 * Placing orders at the oil company when petroleum levels were low.
 
 \--
 
 ### Warehouse Assistant
 
+* Continuously developing organizational skills by methodically placing materials in the warehouse.
 * Checking the quantity, type, and quality of all the materials in the warehouse.
 * keeping a clean and safe environment.
-* Organizing the materials in the warehouse, monitor stock levels.
 * Manually loading and unloading trucks with new merchandise.
 
 \--
