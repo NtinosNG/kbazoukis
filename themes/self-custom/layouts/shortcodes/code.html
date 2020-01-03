@@ -1,0 +1,2 @@
+<pre style="position: relative;" {{if (.Get `lines`)}} class="line-numbers" {{if (.Get `line-start`)}} data-start="{{if (.Get `line-start`)}} {{.Get `line-start`}} {{else}} 1 {{end}}"  {{end}} {{end}} {{if (.Get `highlight`)}} data-line="{{.Get `highlight`}}" {{end}} >{{if (.Get `label`)}}<div style="width: auto !important; background-color: {{.Get `label-background`}} !important; color: {{.Get `label-color`}} !important;" class="ui top attached blue label">{{.Get `label`}}</div>{{end}}
+<code class="language-{{.Get `lang`}}">{{.Inner}}</code></pre>

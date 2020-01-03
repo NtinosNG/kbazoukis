@@ -1,0 +1,162 @@
+
+    <!-- Main menu-->
+    <section class="five wide center aligned column" id="mainMenu">
+        <div class="ui padded segment" id="mainbg">
+
+            <header>
+
+                <!-- Site's Image -->
+                <a href="{{ `/` | absURL }}">
+                    <div class="ui centered link card">
+                        <div class="image">
+                            <img src="{{ $.Site.Params.profileImage | absURL }}">
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Site's title -->
+                <h1 id="siteTitle">{{ $.Site.Params.siteName }}</h1>
+
+                <!-- Site's subtitle/description -->
+                <h2 id="siteDescription">{{ $.Site.Params.description }}</h2>
+
+            </header>
+
+            <br>
+
+            <!-- Site's Navigation -->
+            <nav class="ui container" id="nav">
+                <div class="ui large list">
+                    <div class="item">
+                        <a href="{{`post` | absURL}}">
+                            <i class="bookmark large outline icon"></i> Posts
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a  href="{{`project` | absURL}}" >
+                            <i class="code large icon"></i> Projects
+                        </a>
+                    </div>
+                    {{if eq $.Site.Params.cv `true`}}
+                        <div class="item">
+                            <a href="{{`cv` | absURL}}" >
+                                <i class="address card large icon"></i> Curriculum
+                            </a>
+                        </div>
+                    {{end}}
+                </div>
+            </nav>
+
+            <br>
+
+            {{if ne $.Site.Params.AllDisabled `true`}}
+            <!-- Social Buttons -->
+            <div class="ui horizontal list" id="social">
+
+                <!-- linkedin Account Button -->
+                {{if ne $.Site.Params.linkedin `disable`}}
+                    <div class="item" id="linkedin">
+                        <a href="{{$.Site.Params.linkedin}}"><i class="linkedin large icon"></i></a>
+                    </div>
+                {{end}}
+
+                <!-- GitHub Account Button -->
+                {{if ne $.Site.Params.github `disable`}}
+                    <div class="item" id="github">
+                        <a href="{{$.Site.Params.github}}"><i class="github large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+                <!-- Facebook Account Button -->
+                {{if ne $.Site.Params.facebook `disable`}}
+                    <div class="item" id="facebook">
+                        <a href="{{$.Site.Params.facebook}}"><i class="facebook large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+                <!-- Instagram Account Button -->
+                {{if ne $.Site.Params.instagram `disable`}}
+                    <div class="item" id="instagram">
+                        <a href="{{$.Site.Params.instagram}}"><i class="instagram large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+                <!-- Twitter Account Button -->
+                {{if ne $.Site.Params.twitter `disable`}}
+                    <div class="item" id="twitter">
+                        <a href="{{$.Site.Params.twitter}}"><i class="twitter large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+                <!-- Skype Account Button -->
+                {{if ne $.Site.Params.skype `disable`}}
+                    <div class="item" id="skype">
+                        <a href="{{$.Site.Params.skype}}"><i class="skype large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+                <!-- Gitlab Account Button -->
+                {{if ne $.Site.Params.gitlab `disable`}}
+                    <div class="item" id="gitlab">
+                        <a href="{{$.Site.Params.gitlab}}"><i class="gitlab large icon"></i></a>
+                    </div>
+                {{end}}
+
+                <!-- Bitbucket Account Button -->
+                {{if ne $.Site.Params.bitbucket `disable`}}
+                    <div class="item" id="bitbucket">
+                        <a href="{{$.Site.Params.bitbucket}}"><i class="bitbucket large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+                <!-- E-mail Button -->
+                {{if ne $.Site.Params.mail `disable`}}
+                    <div class="item" id="mail">
+                        <a href="mailto:{{$.Site.Params.mail}}"><i class="mail large icon"></i></a>
+                    </div>
+                {{end}}
+
+
+            </div>
+
+            {{end}}
+
+            <!-- Site's Footer -->
+            <footer class="ui list">
+                <div class="ui centered container">
+                    <div class="item">
+                        <p>
+                            {{ with .Site.Copyright }}{{ . | markdownify}}{{ end }} 
+
+                            {{if eq $.Site.Params.year `true`}}
+                                <script type="text/javascript"> 
+                                    document.write( new Date().getFullYear()); 
+                                </script>  
+                            {{end}}
+                        </p> 
+                    </div>
+                    <div class="item">
+                        <p>Powered by <a href="http://gohugo.io/">Hugo</a> using <a href="https://github.com/ntinosng/self">Self</a> theme</p>
+                    </div>
+                    <div class="item">
+                        <p>All Rights Reserved</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+       
+        {{ partial "stickyMenu" . }}
+    </section>
+
+   
+
+    <!-- Divider Column -->
+    <section class="one wide column" id="stickyCol"></section>

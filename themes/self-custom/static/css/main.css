@@ -1,0 +1,144 @@
+/* Selected fonts */
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+#siteTitle, 
+#sectionTitle,
+#singleTitle {
+	font-family: 'Saira Extra Condensed', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#listTitle,
+#siteDescription,
+#singleSubtitle,
+#cvSubtitle {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+
+p, ul, ol, li {
+	font-size: 17px;
+	line-height: 27px;
+}
+
+#mainMenu,
+#contentSection,
+#mycontent {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* Site specific settings */
+
+body {
+	margin: 2%;
+	scroll-behavior: smooth;	/* works on firefox when pressing the scroll btn */
+}
+
+#myScrollBtn {
+	display: none;
+	position: fixed;
+	bottom: 5px;
+	right: 3px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}  
+
+#stickyMenu {
+	display: none; 
+	top: 150px;
+	position: sticky;
+}
+
+article#myContent div.description p.post {
+	text-align: justify;
+}
+
+
+.inlineCode {
+	background: #1F201B;
+	padding: .1em;
+	border-radius: .3em;
+	color: #f8f8f2;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	line-height: 1.5;
+}
+
+#extraDivInTags, #cvSingleBtns {
+	padding-bottom: 20px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+	pre, .gist {
+		width: 100% !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	
+	[id^='instagram-embed-'] {
+		min-width: 280px !important;
+	}
+	
+}
+
+.twitter-tweet {
+	margin: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	pre, .gist, iframe, [id^='twitter-widget-'] {
+		width: 430px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	pre, .gist, iframe {
+		width: 551px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) {
+	pre, .gist, iframe {
+		width: 680px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+
+@media screen and (max-width: 340px) {
+	body {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	#singleBtns {
+		display: grid;
+	}
+}
+
+@media screen and (max-width: 455px) {
+	#extraTags {	
+		display: inline-grid;	
+	}
+	#prevExtraBtn {
+		margin-top: 4px;
+	}
+}

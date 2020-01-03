@@ -1,0 +1,106 @@
+
+<div id="tabMenu">
+	
+	<div class="ui stackable borderless secondary pointing menu" id="tab">
+		
+		<a class="item active" data-tab="tab1">{{if $.Site.Params.tab1}} {{$.Site.Params.tab1}} {{else}} Tab 1 {{end}}</a>
+		<a class="item" data-tab="tab2">{{if $.Site.Params.tab2}} {{$.Site.Params.tab2}} {{else}} Tab 2 {{end}}</a>
+		<a class="item" data-tab="tab3">{{if $.Site.Params.tab3}} {{$.Site.Params.tab3}} {{else}} Tab 3 {{end}}</a>
+		<a class="item" data-tab="tab4">{{if $.Site.Params.tab4}} {{$.Site.Params.tab4}} {{else}} Tab 4 {{end}}</a>
+		<a class="item" data-tab="tab5">{{if $.Site.Params.tab5}} {{$.Site.Params.tab5}} {{else}} Tab 5 {{end}}</a>
+		
+	</div>
+	
+	<div class="ui divider"></div>
+		
+		<article class="ui tab active" data-tab="tab1">
+			<div class="ui items">
+				<div class="item">
+					<div class="middle aligned content">
+						
+						<div class="description">
+							<p>{{if $.Site.Params.tab1}} {{$.Site.Params.tab1}} tab {{else}} Tab 1 {{end}} has no content yet.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui divider"></div>
+		</article>
+		
+				
+		
+
+	
+	<article class="ui tab" data-tab="tab2">
+		
+		<div class="ui items">
+			<div class="item">
+				<div class="left aligned content">
+					
+					<div class="description">
+						<p>{{if $.Site.Params.tab2}} {{$.Site.Params.tab2}} tab {{else}} Tab 2 {{end}} has no content yet.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="ui divider"></div>	
+	</article>
+	
+	
+	<article class="ui tab" data-tab="tab3">
+		
+		<div class="ui items">
+			<div class="item">
+				<div class="left aligned content">
+					
+					<div class="description">
+						<p>{{if $.Site.Params.tab3}} {{$.Site.Params.tab3}} tab {{else}} Tab 3 {{end}} has no content yet.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="ui divider"></div>	
+	</article>
+	
+	
+	
+	<article class="ui tab" data-tab="tab4">
+		
+		<div class="ui items">
+			<div class="item">
+				<div class="left aligned content">
+					
+					<div class="description">
+						<p>{{if $.Site.Params.tab4}} {{$.Site.Params.tab4}} tab {{else}} Tab 4 {{end}} has no content yet.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="ui divider"></div>			
+		
+	</article>
+	
+	
+	<article class="ui tab" data-tab="tab5">
+		
+		<div class="ui items">
+			<div class="item">
+				<div class="left aligned content">
+					
+					<div class="description">
+						<p>{{if $.Site.Params.tab5}} {{$.Site.Params.tab5}} tab {{else}} Tab 5 {{end}} has no content yet.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="ui divider"></div>			
+		
+	</article>
+	
+</div>

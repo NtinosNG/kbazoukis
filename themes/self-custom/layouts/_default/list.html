@@ -1,0 +1,63 @@
+
+{{define "mainMenu"}}
+	{{ partial "menuSection" . }}
+{{end}}
+
+{{define "contentSection"}}
+
+<!-- Content Section -->
+<section class="ten wide column" id="contentSection">
+    <div class="ui padded segment" id="mainbg">
+	<button id="MaxMinSecBtn" class="ui tiny basic grey right floated icon button"  data-content="Maximize"><i id="winIcon" class="window maximize icon"></i></button>
+	<button id="darkLightMode" class="ui tiny basic yellow icon button"  data-content="Dark"><i id="bulbIcon" class="lightbulb icon"></i></button>	
+
+{{ $numOfIndexPosts := (len .Site.RegularPages) }}
+{{ $currentTitle := .Title}}
+{{ $temp := ""}}
+
+<!-- Section's Title -->
+<h1 id="sectionTitle"> 
+	<i class="{{ if and (eq .Title `Home`) (ne $.Site.Params.HomePosts `disable`) }} 
+					home icon 
+				{{else if eq .Kind `taxonomy` }} 
+					tag icon
+				{{else}} 
+					info circle icon 
+				{{end}}">
+	</i> {{.Title}} 
+	<i class="{{if eq .Title `About`}}caret down icon{{else}}caret right icon{{end}}"></i>
+		{{if ne $.Site.Params.postsCounter `disable`}} 
+			{{if eq .Title "Home" }} 
+				# {{ $numOfIndexPosts}}
+			{{end}}
+		{{end}} 
+</h1>
+
+
+<div class="ui divider"></div>
+
+{{if ne $.Site.Params.HomePosts `disable`}} 
+
+	{{ if and (eq .Title "Home") ( eq $numOfIndexPosts 0) }}	
+		{{partial "noHomePosts" . }}
+	{{else}}
+		{{partial "homeList" . }}
+	{{end}}
+
+{{else}}
+
+	{{if eq .Kind `taxonomy` }}
+
+		{{partial "homeList" . }}
+
+	{{end}}
+
+	{{partial "about" . }}
+
+{{end}} 
+
+	
+</div>
+</section>
+
+{{end}}

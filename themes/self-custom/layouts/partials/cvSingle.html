@@ -1,0 +1,166 @@
+
+<div id="tabMenu">
+    
+    <div class="ui stackable borderless secondary pointing menu" id="tab">
+        
+        <a id="tab1" style="display: none;" class="item active" data-tab="tab1">{{if eq ($.Site.Params.tab1) (.Params.tabTitle)}} {{$.Site.Params.tab1}} {{else}} Tab 1 {{end}}</a>
+        <a id="tab2" style="display: none;" class="item active" data-tab="tab2">{{if $.Site.Params.tab2}} {{$.Site.Params.tab2}} {{else}} Tab 2 {{end}}</a>
+        <a id="tab3" style="display: none;" class="item active" data-tab="tab3">{{if $.Site.Params.tab3}} {{$.Site.Params.tab3}} {{else}} Tab 3 {{end}}</a>
+        <a id="tab4" style="display: none;" class="item active" data-tab="tab4">{{if $.Site.Params.tab4}} {{$.Site.Params.tab4}} {{else}} Tab 4 {{end}}</a>
+        <a id="tab5" style="display: none;" class="item active" data-tab="tab5">{{if $.Site.Params.tab5}} {{$.Site.Params.tab5}} {{else}} Tab 5 {{end}}</a>
+        
+    </div>
+    
+    <div class="ui divider"></div>
+
+    {{if eq ($.Site.Params.tab1) (.Params.tabTitle)}}
+        <script>
+            document.getElementById('tab1').style.display = "block";
+        </script>
+
+        <article class="ui tab active" data-tab="tab1">
+                <div class="ui items">
+                        <div class="item">
+                            <div class="middle aligned content">
+                <div class="meta">
+                    {{if .Params.subtitle}}
+                        <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                     {{end}}
+                    </div>
+
+                    <div class="ui divider"></div>
+                    
+                    <div class="description">
+                        <p>{{.Content}}</p>
+                    </div>
+
+                    <div class="ui divider"></div>
+
+                    <div class="extra" id="cvSingleBtns">
+
+                        <button id="backToBtn" onclick="location.href='{{`cv` | absURL}}'" class="ui basic tiny red right floated button">Back to Curriculum</button>
+
+                    </div>
+                </div>
+                </div>
+                </div>
+        </article>
+    {{end}}
+
+    {{if eq ($.Site.Params.tab2) (.Params.tabTitle)}}
+        <script>
+            document.getElementById('tab2').style.display = "block";
+        </script>
+
+        <article class="ui tab active" data-tab="tab2">
+                <div class="meta">
+                        {{if .Params.subtitle}}
+                        <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                     {{end}}
+                    </div>
+
+                    <div class="ui divider"></div>
+                    
+                    <div class="description">
+                        <p>{{.Content}}</p>
+                    </div>
+
+                    <div class="ui divider"></div>
+
+                    <div class="extra" id="cvSingleBtns">
+
+                            <button id="backToBtn" onclick="location.href='{{`cv` | absURL}}'" class="ui basic tiny red right floated button">Back to Curriculum</button>
+    
+                        </div>
+        </article>
+    {{end}}
+
+    {{if eq ($.Site.Params.tab3) (.Params.tabTitle)}}
+        <script>
+            document.getElementById('tab3').style.display = "block";
+        </script>
+
+        <article class="ui tab active" data-tab="tab3">
+                <div class="meta">
+                        {{if .Params.subtitle}}
+                        <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                     {{end}}
+                    </div>
+
+                    <div class="ui divider"></div>
+                    
+                    <div class="description">
+                        <p>{{.Content}}</p>
+                    </div>
+
+                    <div class="ui divider"></div>
+
+                    <div class="extra" id="cvSingleBtns">
+
+                        <button id="backToBtn" onclick="location.href='{{`cv` | absURL}}'" class="ui basic tiny red right floated button">Back to Curriculum</button>
+
+                    </div>
+        </article>
+    {{end}}
+
+    {{if eq ($.Site.Params.tab4) (.Params.tabTitle)}}
+        <script>
+            document.getElementById('tab4').style.display = "block";
+        </script>
+
+        <article class="ui tab active" data-tab="tab4">
+                <div class="meta">
+                        {{if .Params.subtitle}}
+                            <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                        {{end}}
+                    </div>
+
+                    <div class="ui divider"></div>
+
+                    <div class="description">
+                        <p>{{.Content}}</p>
+                    </div>
+
+                    <div class="ui divider"></div>
+
+                    <div class="extra" id="cvSingleBtns">
+
+                        <button id="backToBtn" onclick="location.href='{{`cv` | absURL}}'" class="ui basic tiny red right floated button">Back to Curriculum</button>
+
+
+                    </div>
+        </article>
+    {{end}}
+
+
+    {{if eq ($.Site.Params.tab5) (.Params.tabTitle)}}
+        <script>
+            document.getElementById('tab5').style.display = "block";
+        </script>
+
+        <article class="ui tab active" data-tab="tab5">
+                <div class="meta">
+                        {{if .Params.subtitle}}
+                            <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                        {{end}}
+                    </div>
+
+                    <div class="ui divider"></div>
+                    
+                    <div class="description">
+                        <p>{{.Content}}</p>
+                    </div>
+
+                    <div class="ui divider"></div>
+
+                    <div class="extra" id="cvSingleBtns">
+
+                        <button id="backToBtn" onclick="location.href='{{`cv` | absURL}}'" class="ui basic tiny red right floated button">Back to Curriculum</button>
+
+                    </div>
+        </article>
+    {{end}}
+
+        
+
+</div>

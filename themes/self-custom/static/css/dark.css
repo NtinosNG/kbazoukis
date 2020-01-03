@@ -1,0 +1,103 @@
+/* Dark Theme */
+
+body {
+	/* background: rgb(90, 90, 90);  */
+  background-image: url('/uploads/metroid-cave.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#mainbg,
+#myContent {
+	background: rgb(54, 54, 54);
+}
+
+p,h1,h2,h3,h4,h5,h6, ul, ol, div#tab > a.item {
+	color: rgb(220, 220, 220);
+}
+
+section#mainMenu h1#siteTitle,
+div#mainbg > h1#sectionTitle,
+div#mainbg > h1#singleTitle {
+	color: rgb(255, 255, 224);
+}
+
+
+#stickybg {
+	background: rgb(54, 54, 54);
+	border-radius: 100%;
+}
+
+div.ui.pagination.menu {
+	background: rgb(45, 46, 47);
+}
+
+div.ui.pagination.menu a {
+	color: white;
+}
+
+div.ui.pagination.menu a.item.active {
+	color: white;
+	background: rgb(61, 62, 63);
+}
+
+#tab {
+	background: rgb(66,66,66);
+	border-radius: 10px;
+}
+
+div#metaSingle div.meta, 
+div#metaSingle div.meta > a,
+#startFinishDate {
+	color: lightblue;
+}
+
+div#metaSingle div.meta > a:hover {
+	text-decoration: underline;
+	color: rgb(51, 189, 235);
+}
+
+#siteDescription,
+footer a {
+	color: lightskyblue;
+}
+
+#stickynav a,
+#nav a,
+#social a {
+	color: rgb(220, 220, 220);
+}
+
+div#tab > a.item.active {
+	background: rgb(54, 54, 54);
+	color: rgb(51, 189, 235);
+	border-color: whitesmoke;
+	border-radius: 10px;
+}
+
+div#tab > a.item:hover {
+	background: rgb(54, 54, 54);
+	color: rgb(51, 189, 235);
+	border-color: whitesmoke;
+	border-radius: 10px;
+}
+
+div.ui.pagination.menu a:hover {
+	background: rgb(61, 62, 63);
+}
+
+#stickynav a:hover,
+#nav a:hover,
+#social a:hover,
+footer a:hover,
+div.ui.pagination.menu a:hover {
+	color: rgb(51, 189, 235);
+}
+
+
+@media only screen and (min-height: 1201px) {
+	body {
+		background: rgb(90, 90, 90); 
+	}
+}

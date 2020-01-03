@@ -1,0 +1,32 @@
+
+{{define "mainMenu"}}
+	{{if eq $.Site.Params.cv `true`}}
+		{{ partial "menuSection.html" . }}
+	{{end}}	
+{{end}}
+
+{{define "contentSection"}}
+
+	{{if eq $.Site.Params.cv `true`}}
+		<!-- Content Section -->
+		<section class="ten wide column" id="contentSection">
+			<div class="ui padded segment" id="mainbg">
+				<button id="MaxMinSecBtn" class="ui tiny basic grey right floated icon button" data-content="Maximize"><i id="winIcon" class="window maximize icon"></i></button>
+				<button id="darkLightMode" class="ui tiny basic yellow icon button"  data-content="Dark"><i id="bulbIcon" class="lightbulb icon"></i></button>
+		
+				
+		<!-- Section's Title -->
+		<h1 id="sectionTitle">
+			<i class="address card icon"></i> {{.Title}} 
+			<i class="caret down icon"></i>
+		</h1>
+		
+		<div class="ui divider"></div>
+				
+				{{partial "cvSingle" . }}
+
+			</div>
+		</section>
+	{{end}}
+
+{{end}}

@@ -1,0 +1,66 @@
+{{ range .Paginator.Pages }}
+
+<article id="myContent">
+    <div class="ui items">
+        <div class="item">
+            
+            <div class="middle aligned content">
+                
+                <h1 id="listTitle"> {{.Title}} </h1>
+                
+                <div class="ui relaxed horizontal list" id="metaSingle">
+                    
+                    <div class="item">
+                        <div class="meta">
+                            <i class="calendar alternate outline icon"></i> 
+                            &nbsp;&nbsp;{{ dateFormat "Monday, January 02, 2006" .Date}}
+                        </div>
+                    </div>
+                    <div  class="item">
+                        <div class="meta">
+                            {{ if .Params.tags }}
+                            <i class="tags icon"></i>
+                            {{range .Params.tags}}
+                            <a href="{{ `/tags/` | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+                            {{end}}
+                            {{end}}
+                        </div>
+                    </div>
+                    <div  class="item">
+                        <div class="meta">
+                            {{ if .Params.categories }}
+                            <i class="object group outline icon"></i>
+                            {{range .Params.categories}}
+                            <a href="{{ `/categories/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                            {{end}}
+                            {{end}}
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="description">
+                    <p class="post"> {{.Description}} </p>
+                </div>
+                <div class="extra">
+                    <button onclick="location.href='{{.RelPermalink}}'" class="ui right floated blue tiny basic button">
+                        Read Post...
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</article>
+
+<div class="ui divider"></div>
+
+{{ end }}
+
+<div class="ui items" id="extraDivInTags">
+    <div class="extra" id="extraTags">
+        {{ partial "pagination" . }}
+        
+        {{if eq .Kind `taxonomy` }} <button id="prevExtraBtn" onclick="getPrevPage()" class="ui tiny green right floated button">Previous Page</button> {{end}}
+    </div>
+</div>

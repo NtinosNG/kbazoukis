@@ -1,0 +1,63 @@
+/* Light Theme */
+
+body {
+	/* background: rgb(230, 230, 230); */
+	background-image: url('/uploads/metroid-cave.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#mainbg,
+#myContent {
+	background: rgb(250, 250, 250);
+}
+
+#stickybg {
+	background: rgb(250, 250, 250);
+	border-radius: 100%;
+}
+
+p,h1,h2,h3,h4,h5,h6,
+#stickynav a,
+#nav a,
+#social a,
+#startFinishDate,
+div#metaSingle div.meta, 
+div#metaSingle div.meta > a {
+	color:  black;
+}
+
+#siteDescription,
+footer a {
+	color:  royalblue;
+}
+
+div#tab > a.item.active {
+	color: dodgerblue;
+	border-radius: 10px;
+}
+
+div#tab > a.item:hover {
+	color: dodgerblue;
+	border-color: black;
+	border-radius: 10px;
+}
+
+div#metaSingle div.meta > a:hover {
+	text-decoration: underline;
+	color: rgb(51, 189, 235);
+} 
+
+#stickynav a:hover,
+#nav a:hover,
+#social a:hover,
+footer a:hover {
+	color: dodgerblue;
+}
+
+@media only screen and (min-height: 1201px) {
+	body {
+		background: rgb(230, 230, 230);
+	}
+}

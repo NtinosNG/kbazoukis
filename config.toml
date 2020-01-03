@@ -11,7 +11,7 @@
 
 baseURL = "https://kbazoukis.com"
 
-theme = "self"
+theme = "self-custom"
 
 # The default is English 
 languageCode = "en-us"
@@ -20,7 +20,7 @@ languageCode = "en-us"
 title = "Konstantinos Bazoukis - Personal Website"
 
 # For displaying the copyright on the footer
-copyright = "&copy; Konstantinos Bazoukis"
+copyright = "&copy; Konstantinos Bazoukis - "
 
 # Set a number where pagination starts
 paginate = 3

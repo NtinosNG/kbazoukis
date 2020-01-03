@@ -1,0 +1,36 @@
+
+{{ $pagination := $.Paginator }}
+
+{{ if gt $pagination.TotalPages 1 }}
+  <div class="ui pagination menu" id="pagination">
+
+      <!-- Show the first page from the third page and later pages -->
+      {{ if and (ne $pagination.PageNumber 1) (ne $pagination.PageNumber 2) }}
+        <a class="item" href="{{ $pagination.First.URL }}">« First</a>
+      {{end}}
+
+
+      {{ range $pagination.Pagers }}
+
+       <!-- If this is the current number make it active -->
+        {{ if eq . $pagination }} 
+          <a class="item active" href="{{ .URL }}" id="activeBtn">{{ .PageNumber }}</a>
+
+        <!-- If there is a previous page and a next one without being the first or the last respectively, show their numbers  -->
+        {{ else if and (ge .PageNumber (sub $pagination.PageNumber 1)) (le .PageNumber (add $pagination.PageNumber 1)) }}
+          <a class="item" href="{{ .URL }}">{{ .PageNumber }}</a>
+        {{end}}
+
+      {{end}}
+
+
+    <!-- When the current page is the second last just show the last page number  -->
+    {{ if and (ne $pagination.PageNumber $pagination.TotalPages) ((ne $pagination.PageNumber (sub $pagination.TotalPages 1))) }}
+      <a class="item" href="{{ $pagination.Last.URL }}">Last »</a>
+    {{end}}
+  
+  </div>
+
+{{end}}
+
+  

@@ -1,0 +1,262 @@
+
+<div id="tabMenu">
+    
+    <div class="ui stackable borderless secondary pointing menu" id="tab">
+        
+        <a id="tab1" style="display: none;" class="item active" data-tab="tab1">{{if $.Site.Params.tab1}} {{$.Site.Params.tab1}} {{else}} Tab 1 {{end}}</a>
+        <a id="tab2" style="display: none;" class="item" data-tab="tab2">{{if $.Site.Params.tab2}} {{$.Site.Params.tab2}} {{else}} Tab 2 {{end}}</a>
+        <a id="tab3" style="display: none;" class="item" data-tab="tab3">{{if $.Site.Params.tab3}} {{$.Site.Params.tab3}} {{else}} Tab 3 {{end}}</a>
+        <a id="tab4" style="display: none;" class="item" data-tab="tab4">{{if $.Site.Params.tab4}} {{$.Site.Params.tab4}} {{else}} Tab 4 {{end}}</a>
+        <a id="tab5" style="display: none;" class="item" data-tab="tab5">{{if $.Site.Params.tab5}} {{$.Site.Params.tab5}} {{else}} Tab 5 {{end}}</a>
+        
+    </div>
+    
+    <div class="ui divider"></div>
+
+        {{ range .Pages.GroupByParam "tabTitle" }}
+        
+                {{if eq .Key $.Site.Params.tab1}}
+
+                <script>
+                    document.getElementById('tab1').style.display = "block";
+                </script>
+
+                    <article class="ui tab active" data-tab="tab1">
+                            {{ range .Pages }}
+                        <div class="ui items">
+                            <div class="item">
+                                <div class="middle aligned content">
+                                    <h1>{{.Title}}</h1>
+                                        <div class="meta">
+                                                {{if .Params.subtitle}}
+                                                   <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                                                {{end}}
+                                        </div>
+                                    {{if .Content }}
+                                        <br>
+                                    <div class="description">
+                                        {{if eq .Params.moreContent true}}
+                                            <p>{{.Params.description}}</p>
+                                        {{end}}
+
+                                        {{if eq .Params.moreContent false}}
+                                            <p>{{.Content}}</p>
+                                        {{end}}
+                                    </div>
+                                    {{end}}
+                                    <br>
+                                    <div class="extra">
+                                        {{if eq .Params.moreContent true}}
+                                        <button onclick="location.href='{{.RelPermalink}}'" class="ui blue tiny basic button">
+                                            Read More...
+                                        </button>
+                                        {{end}}
+
+                                        {{if .Params.startFinishDate}}
+                                            <div id="startFinishDate" class="ui right floated meta">{{.Params.startFinishDate}}</div>
+                                        {{end}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        {{end}}
+                    </article>
+
+                {{end}}
+
+                {{if eq .Key $.Site.Params.tab2}}
+
+                <script>
+                    document.getElementById('tab2').style.display = "block";
+                </script>
+
+                    <article class="ui tab" data-tab="tab2">
+                            {{ range .Pages }}
+                        <div class="ui items">
+                            <div class="item">
+                                <div class="middle aligned content">
+                                        <h1>{{.Title}}</h1>
+                                        <div class="meta">
+                                                {{if .Params.subtitle}}
+                                                   <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                                                {{end}}
+                                        </div>
+                                    
+                                    <div class="description">
+                                            {{if eq .Params.moreContent true}}
+                                            <p>{{.Params.description}}</p>
+                                        {{end}}
+
+                                        {{if eq .Params.moreContent false}}
+                                            <p>{{.Content}}</p>
+                                        {{end}}
+                                    </div>
+                                    <div class="extra">
+                                        {{if eq .Params.moreContent true}}
+                                        <button onclick="location.href='{{.RelPermalink}}'" class="ui blue tiny basic button">
+                                            Read More...
+                                        </button>
+                                        {{end}}
+
+                                        {{if .Params.startFinishDate}}
+                                            <div  id="startFinishDate" class="ui right floated meta">{{.Params.startFinishDate}}</div>
+                                        {{end}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        {{end}}
+                    </article>
+
+                {{end}}
+
+                {{if eq .Key $.Site.Params.tab3}}
+
+                <script>
+                    document.getElementById('tab3').style.display = "block";
+                </script>
+
+                    <article class="ui tab" data-tab="tab3">
+                            {{ range .Pages }}
+                        <div class="ui items">
+                            <div class="item">
+                                <div class="middle aligned content">
+                                        <h1>{{.Title}}</h1>
+                                        <div class="meta">
+                                                {{if .Params.subtitle}}
+                                                   <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                                                {{end}}
+                                        </div>
+                                    
+                                    <div class="description">
+                                            {{if eq .Params.moreContent true}}
+                                            <p>{{.Params.description}}</p>
+                                        {{end}}
+
+                                        {{if eq .Params.moreContent false}}
+                                            <p>{{.Content}}</p>
+                                        {{end}}
+                                    </div>
+                                    <div class="extra">
+                                        {{if eq .Params.moreContent true}}
+                                        <button onclick="location.href='{{.RelPermalink}}'" class="ui blue tiny basic button">
+                                            Read More...
+                                        </button>
+                                        {{end}}
+
+                                        {{if .Params.startFinishDate}}
+                                        <div  id="startFinishDate" class="ui right floated meta">{{.Params.startFinishDate}}</div>
+                                    {{end}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        {{end}}
+                    </article>
+
+                {{end}}
+
+                {{if eq .Key $.Site.Params.tab4}}
+
+                <script>
+                    document.getElementById('tab4').style.display = "block";
+                </script>
+
+                    <article class="ui tab" data-tab="tab4">
+                            {{ range .Pages }}
+                        <div class="ui items">
+                            <div class="item">
+                                <div class="middle aligned content">
+                                    <h1>{{.Title}}</h1>
+                                    <div class="meta">
+                                            {{if .Params.subtitle}}
+                                            <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                                         {{end}}
+                                        </div>
+                                    
+                                    <div class="description">
+                                            {{if eq .Params.moreContent true}}
+                                            <p>{{.Params.description}}</p>
+                                        {{end}}
+
+                                        {{if eq .Params.moreContent false}}
+                                            <p>{{.Content}}</p>
+                                        {{end}}
+                                    </div>
+                                    <div class="extra">
+                                        {{if eq .Params.moreContent true}}
+                                        <button onclick="location.href='{{.RelPermalink}}'" class="ui blue tiny basic button">
+                                            Read More...
+                                        </button>
+                                        {{end}}
+
+                                        {{if .Params.startFinishDate}}
+                                            <div  id="startFinishDate" class="ui right floated meta">{{.Params.startFinishDate}}</div>
+                                        {{end}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        {{end}}
+                    </article>
+
+                {{end}}
+
+                {{if eq .Key $.Site.Params.tab5}}
+
+                <script>
+                    document.getElementById('tab5').style.display = "block";
+                </script>
+
+                    <article class="ui tab" data-tab="tab5">
+                            {{ range .Pages }}
+                        <div class="ui items">
+                            <div class="item">
+                                <div class="middle aligned content">
+                                    <h1>{{.Title}}</h1>
+
+                                    <div class="meta">
+                                        {{if .Params.subtitle}}
+                                            <h3>{{.Params.subtitle}} {{if .Params.location}}<div class="ui right floated"><i class="map marker alternate icon"></i>{{.Params.location}}</div>{{end}}</h3> 
+                                         {{end}}
+                                    </div>
+                                    
+                                    <div class="description">
+                                            {{if eq .Params.moreContent true}}
+                                            <p>{{.Params.description}}</p>
+                                        {{end}}
+
+                                        {{if eq .Params.moreContent false}}
+                                            <p>{{.Content}}</p>
+                                        {{end}}
+                                    </div>
+                                    
+                                    <div class="extra">
+                                        {{if eq .Params.moreContent true}}
+                                        <button onclick="location.href='{{.RelPermalink}}'" class="ui blue tiny basic button">
+                                            Read More...
+                                        </button>
+                                        {{end}}
+
+                                        {{if .Params.startFinishDate}}
+                                            <div  id="startFinishDate" class="ui right floated meta">{{.Params.startFinishDate}}</div>
+                                        {{end}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        {{end}}
+                    </article>
+
+                {{end}}
+
+        
+        {{end}}
+    
+
+</div>

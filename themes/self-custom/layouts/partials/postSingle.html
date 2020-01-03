@@ -1,0 +1,96 @@
+<!-- Content Section -->
+<section class=" ten wide column" id="contentSection">
+        <div class="ui padded segment" id="mainbg">
+            <button id="MaxMinSecBtn" class="ui tiny basic grey right floated icon button" data-content="Maximize"><i id="winIcon" class="window maximize icon"></i></button>
+            <button id="darkLightMode" class="ui tiny basic yellow icon button"  data-content="Dark"><i id="bulbIcon" class="lightbulb icon"></i></button>
+
+    <!-- Section's Title -->
+    <h1 id="singleTitle"> <i class="{{ if eq .Params.postType `Post` }} bookmark outline icon {{else}} info circle icon {{end}}"></i> {{.Title}} <i class="caret down icon"></i></h1>
+    
+    <div class="ui divider"></div>
+                <!-- Content  -->
+                    <article id="myContent">
+                        <div class="ui items">
+
+                            <div class="item">
+                                <div class="middle aligned content">
+    
+                                    <div class="ui relaxed stackable horizontal list" id="metaSingle">
+                                        <div class="item">
+                                            <div class="meta">
+                                                <i class="calendar alternate outline icon"></i> 
+                                                &nbsp;&nbsp;{{ dateFormat "Monday, January 02, 2006" .Date}}
+                                            </div>
+                                        </div>
+                                        <div  class="item">
+                                            <div  class="meta">
+                                                <i class="clock outline icon"></i>
+                                                &nbsp;&nbsp;{{.ReadingTime}} minute(s) read
+                                            </div>
+                                        </div>
+                                        <div  class="item">
+                                            <div class="meta">
+                                            {{ if .Params.tags }}
+                                            <i class="tags icon"></i>
+                                            {{range .Params.tags}}
+                                                <a href="{{ `/tags/` | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+                                                {{end}}
+                                            {{end}}
+                                            </div>
+                                        </div>
+                                        <div  class="item">
+                                            <div class="meta">
+                                            {{ if .Params.categories }}
+                                            <i class="object group outline icon"></i>
+                                            {{range .Params.categories}}
+                                                <a href="{{ `/categories/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                                                {{end}}
+                                            {{end}}
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="ui divider"></div>
+
+                                    {{if .Params.subtitle}}
+                                        <h2 id="singleSubtitle">{{.Params.subtitle | markdownify }}</h2>
+                                    {{end}}
+
+                                    <br/>
+    
+                                    <div class="description">
+                                        <p>{{.Content}}</p>
+                                    </div>
+    
+                                    <div class="ui divider"></div>
+    
+                                    <div class="extra" id="singleBtns">
+    
+                                        {{if .PrevInSection}}
+                                        <button id="prevSecBtn" onclick="location.href='{{.PrevInSection.Permalink}}'" class="ui tiny basic blue left floated button">Previous Post</button>
+                                        {{end}}
+    
+                                        {{if .NextInSection}}
+                                            <button id="nextSecBtn" onclick="location.href='{{.NextInSection.Permalink}}'" class="ui tiny basic blue left floated button">Next Post</button>
+                                        {{end}}
+    
+                                        <button id="backToBtn" onclick="location.href='{{`post` | absURL}}'" class="ui basic tiny red right floated button">Back to Posts</button>
+    
+                                        <button id="prevPageBtn" onclick="getPrevPage()" class="ui tiny basic green right floated button">Previous Page</button>
+    
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            {{if eq $.Site.Params.comments true}}
+                                <div class="ui divider"></div>      
+                                    {{ template "_internal/disqus.html" . }}
+                            {{end}}
+                        </div>
+                    </article>
+    </div>
+    </section>
+    
+    
+    
