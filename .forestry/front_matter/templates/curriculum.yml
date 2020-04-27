@@ -38,14 +38,14 @@ fields:
   name: description
   label: description
 pages:
-- content/cv/fuels-manager.md
-- content/cv/university-of-derby.md
-- content/cv/iek-akmi-institute-of-vocational-training.md
-- content/cv/computer-repair.md
-- content/cv/programming-languages-tools.md
-- content/cv/interests.md
-- content/cv/best-presentation-award.md
-- content/cv/level-4-scholarship.md
-- content/cv/computer-technician.md
-- content/cv/labourer.md
 - content/cv/_index.md
+- content/cv/best-presentation-award.md
+- content/cv/computer-repair.md
+- content/cv/computer-technician.md
+- content/cv/fuels-manager.md
+- content/cv/iek-akmi-institute-of-vocational-training.md
+- content/cv/interests.md
+- content/cv/labourer.md
+- content/cv/level-4-scholarship.md
+- content/cv/programming-languages-tools.md
+- content/cv/university-of-derby.md
