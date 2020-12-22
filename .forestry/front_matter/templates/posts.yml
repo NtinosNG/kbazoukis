@@ -44,3 +44,4 @@ fields:
   label: Categories
 pages:
 - content/post/_index.md
+- content/post/test-post.md
