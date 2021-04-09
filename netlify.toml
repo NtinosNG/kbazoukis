@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "https://kbazoukis.netlify.com"
-  to = "https://kbazoukis.com"
-  status = 200
+  to = "https://kbazoukis.com:splat"
+  status = 301
   force = true
