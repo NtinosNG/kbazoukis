@@ -16,5 +16,3 @@ title = "Tools and Frameworks"
 * Laravel
 * Hugo
 * Jira
-
-**Links and or examples will be added soon!!!**
