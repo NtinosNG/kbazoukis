@@ -1,13 +1,14 @@
 +++
 date = 2019-08-08T21:00:00Z
-description = "Apart from supervising the petrol station, I also worked as a warehouse and administrative assistant."
+description = "Supervising the construction site petrol station - assisting at the warehouse - administrative assistant responsibilities."
+draft = true
 location = "Aigio, Greece"
 moreContent = true
 postType = "CV"
 startFinishDate = "September 2014 - August 2015"
 subtitle = "AKTOR Construction"
 tabTitle = "Experience"
-title = "Petrol Station Supervisor"
+title = "Warehouse Assistant"
 
 +++
 ### Petrol Station Supervisor
