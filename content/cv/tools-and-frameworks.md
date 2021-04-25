@@ -11,12 +11,10 @@ tabTitle = "Skills"
 title = "Tools and Frameworks"
 
 +++
-- JavaScript
-- PHP
-- HTML
-- CSS
-- Python
-- Java
-- C#
+* Git
+* SQL
+* Laravel
+* Hugo
+* Jira
 
-**Links to projects will be added soon!!!**
+**Links and or examples will be added soon!!!**
