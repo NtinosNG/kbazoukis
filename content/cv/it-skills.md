@@ -1,5 +1,5 @@
 +++
-date = 2021-02-01T00:00:00Z
+date = 2021-01-01T10:00:00Z
 description = ""
 draft = true
 location = ""
@@ -16,4 +16,4 @@ title = "IT Skills"
 * Linux VPS/DNS Installation (LEMP)
 * Docker (beginner)
 
-**Examples will be added soon!!!**
+**Links and/or examples will be added soon!!!**
