@@ -13,7 +13,7 @@ title = "Interests"
 +++
 <br/>
 
-I'm a person of technology, and for the most part my interests are "geeky"! I like watching **movies** and **TV shows**, playing **video games**, reading **comic books**, experimenting with **DIY** stuff and exploring **new technologies** such as programming languages, tools, Linux distros and other!
+I'm a person of technology and for the most part my interests are "geeky"! I like watching **movies** and **TV shows**, playing **video games**, reading **comic books**, experimenting with **DIY** stuff and exploring **new technologies** such as programming languages, tools, Linux distros and other!
 
 However, apart from the part of my life that involves technology, I do enjoy things that most people like!
 
