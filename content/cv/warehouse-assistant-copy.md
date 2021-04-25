@@ -1,35 +1,22 @@
 +++
 date = 2019-08-09T09:00:00Z
-description = "Petrol Station Supervisor - Warehouse & Administrative Assistant"
+description = "Built company’s website"
 draft = true
-location = "Aigio, Greece"
+location = "London, UK"
 moreContent = true
 postType = "CV"
-startFinishDate = "September 2014 - August 2015"
-subtitle = "AKTOR Construction"
+startFinishDate = "January 2020 – February 2020"
+subtitle = "Packet Storm"
 tabTitle = "Experience"
-title = "Warehouse Assistant-(copy)"
+title = "Web Developer"
 
 +++
-### Petrol Station Supervisor
+### Workflow:
 
-* Upgraded the existing document-based record keeping to a digital one by using MS Excel.
-* Fueling up to 100 vehicles every day; constantly improving communication skills by interacting with all kinds of customers.
-* Placing orders at the oil company when petroleum levels were low.
+1. Gathered requirements from customer
 
-***
+2. Decided on dev tools (Hugo SSG, VScode etc)
 
-### Warehouse Assistant
+3. Kept track of source code milestones with Git
 
-* Continuously developing organizational skills by methodically placing materials in the warehouse.
-* Checking the quantity, type, and quality of all the materials in the warehouse.
-* keeping a clean and safe environment.
-* Manually loading and unloading trucks with new merchandise.
-
-***
-
-### Administrative Assistant
-
-* Filing invoice documents and certificates, organizing the archives.
-* keeping a digital archive of the invoice documents with the use of MS Excel.
-* Keeping a digital archive of fuels consumption.
+4. Deployed on hosting service (Netlify)
