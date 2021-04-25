@@ -1,8 +1,9 @@
 +++
-date = "2019-08-09T00:00:00+03:00"
-description = ""
+date = 2019-08-08T21:00:00Z
+description = "Computer Repair, Networks Installation, Linux VPS/DNS Installation (LEMP)"
+draft = true
 location = "Alexandria, Greece"
-moreContent = false
+moreContent = true
 postType = "CV"
 startFinishDate = "October 2013 - March 2014"
 subtitle = "Xpert Computer Service"
