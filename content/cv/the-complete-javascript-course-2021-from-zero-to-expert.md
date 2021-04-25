@@ -1,46 +1,25 @@
 +++
-date = 2019-08-10T12:41:32Z
-description = "Grade: First Class Honours"
+date = 2021-02-28T13:41:32Z
+description = "Instructor: Jonas Schmedtmann"
 draft = true
-location = "Thessaloniki, Greece"
+location = "Online"
 moreContent = true
 postType = "CV"
-startFinishDate = "October 2016 - June 2019"
-subtitle = "BSc (Hons) in Computer Science"
+startFinishDate = "January 2021 - March 2021"
+subtitle = "Udemy Course"
 tabTitle = "Education"
 title = "The Complete JavaScript Course 2021: From Zero to Expert!"
 
 +++
-### Modules Studied:
+### **What was covered in the course**
 
-#### Year 1
+* 5 real-world projects - learned how to plan and architect applications by using flowcharts and common JavaScript patterns.
+* JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, and more.
+* Modern JavaScript (ES6+) from the beginning: arrow functions, destructuring, spread operator, default arguments, optional chaining (ES2020), and more
+* How JavaScript works behind the scenes: engines, the call stack, hoisting, scoping, the 'this' keyword, reference values, and more.
+* Deep dive into functions: arrow functions, first-class and higher-order functions, bind, and closures.
+* Deep dive into object-oriented programming: prototypal inheritance, constructor functions (ES5), classes (ES6), encapsulation, abstraction, inheritance, and polymorphism.
+* Deep dive into asynchronous JavaScript: the event loop, promises, async/await, and error handling. You will use these to access data from third-party APIs with AJAX calls.
+* Modern tools that are used by professional web developers: NPM, Parcel (module bundler), Babel, and ES6 modules.
 
-* Introduction to Computer Science
-* Computational Mathematics
-* Programming I
-* Networking Fundamentals
-* Foundations of Computer Science
-* Programming II
-
-#### Year 2
-
-* Networks and Security
-* Graphics I
-* Databases
-* Software Engineering
-* Application Development
-* Team Project
-
-#### Year 3
-
-* Independent Studies
-* Distributed Systems
-* Systems Programming
-* Language Design and Implementation
-* Cryptography and Coding
-
-### More Information
-
-The studies took place at [**Mediterranean College**](https://www.medcollege.edu.gr/en/mediterranean-college/our-profile/), which offers **bachelor** and **master** degree courses in collaboration with **University of Derby** among others.
-
-For more info regarding the aforementioned partnership visit this [**link**](https://www.derby.ac.uk/partnerships/international-collaborative/mediterranean-college/).
+[**Certificate of Completion**](https://www.derby.ac.uk/partnerships/international-collaborative/mediterranean-college/).
