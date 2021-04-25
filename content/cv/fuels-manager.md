@@ -1,5 +1,5 @@
 +++
-date = 2019-08-08T09:00:00Z
+date = 2019-08-09T09:00:00Z
 description = "Petrol Station Supervisor - Warehouse & Administrative Assistant"
 draft = true
 location = "Aigio, Greece"
