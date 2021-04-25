@@ -1,7 +1,6 @@
 +++
 date = 2019-08-08T21:00:00Z
 description = "Computer Repair, Networks Installation, Linux VPS/DNS Installation (LEMP)"
-draft = true
 location = "Alexandria, Greece"
 moreContent = true
 postType = "CV"
