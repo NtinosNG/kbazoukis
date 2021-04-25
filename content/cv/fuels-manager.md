@@ -17,7 +17,7 @@ title = "Warehouse Assistant"
 * Fueling up to 100 vehicles every day; constantly improving communication skills by interacting with all kinds of customers.
 * Placing orders at the oil company when petroleum levels were low.
 
-\--
+***
 
 ### Warehouse Assistant
 
@@ -26,7 +26,7 @@ title = "Warehouse Assistant"
 * keeping a clean and safe environment.
 * Manually loading and unloading trucks with new merchandise.
 
-\--
+***
 
 ### Administrative Assistant
 
