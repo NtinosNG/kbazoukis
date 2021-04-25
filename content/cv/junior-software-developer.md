@@ -1,22 +1,22 @@
 +++
-date = 2020-02-02T10:00:00Z
-description = "Built company’s website"
+date = 2021-01-24T10:00:00Z
+description = "Maintaining and upgrading the company's core software."
 draft = true
 location = "London, UK"
 moreContent = true
 postType = "CV"
-startFinishDate = "January 2020 – February 2020"
-subtitle = "Packet Storm"
+startFinishDate = "February 2020 – January 2021"
+subtitle = "The Engine Shed"
 tabTitle = "Experience"
 title = "Junior Software Developer"
 
 +++
-### Workflow:
+- SCRUM based daily workflow
 
-1. Gathered requirements from customer
+- Implementing features on the backend (PHP & Git)
 
-2. Decided on dev tools (Hugo SSG, VScode etc)
+- Using MySQL to generate one-off reports
 
-3. Kept track of source code milestones with Git
+- Tracking issues on Jira for customer support
 
-4. Deployed on hosting service (Netlify)
+- Remote work
