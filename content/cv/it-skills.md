@@ -7,7 +7,7 @@ postType = "CV"
 startFinishDate = ""
 subtitle = ""
 tabTitle = "Skills"
-title = "IT Skills"
+title = "IT - DevOps Skills"
 
 +++
 * Computer Repair
