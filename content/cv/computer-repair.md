@@ -1,5 +1,5 @@
 +++
-date = 2021-03-31T23:00:00Z
+date = 2021-04-01T11:00:00Z
 description = ""
 draft = true
 location = ""
@@ -11,12 +11,12 @@ tabTitle = "Skills"
 title = "Programming"
 
 +++
-- JavaScript
-- PHP
-- HTML
-- CSS
-- Python
-- Java
-- C#
+* JavaScript
+* PHP
+* HTML
+* CSS
+* Python
+* Java
+* C#
 
-**Links to projects will be added soon!!!**
+**Links and/or examples will be added soon!!!**
