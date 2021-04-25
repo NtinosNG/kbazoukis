@@ -1,6 +1,6 @@
 +++
 date = 2019-08-08T21:00:00Z
-description = "Supervising the construction site petrol station - assisting at the warehouse - administrative assistant responsibilities."
+description = "Petrol Station Supervisor - Warehouse & Administrative Assistant"
 draft = true
 location = "Aigio, Greece"
 moreContent = true
