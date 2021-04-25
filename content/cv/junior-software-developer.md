@@ -1,7 +1,6 @@
 +++
 date = 2021-01-24T10:00:00Z
 description = "Maintaining and upgrading the company's core software."
-draft = true
 location = "London, UK"
 moreContent = true
 postType = "CV"
