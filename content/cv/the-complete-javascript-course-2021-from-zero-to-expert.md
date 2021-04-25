@@ -22,4 +22,4 @@ title = "The Complete JavaScript Course 2021: From Zero to Expert!"
 * Deep dive into asynchronous JavaScript: the event loop, promises, async/await, and error handling. You will use these to access data from third-party APIs with AJAX calls.
 * Modern tools that are used by professional web developers: NPM, Parcel (module bundler), Babel, and ES6 modules.
 
-[**Certificate of Completion**](https://www.derby.ac.uk/partnerships/international-collaborative/mediterranean-college/).
+[**Certificate of Completion**](https://ude.my/UC-26525a73-a102-46d3-9fc3-0e67b7bf850c)
