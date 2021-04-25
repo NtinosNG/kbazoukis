@@ -1,14 +1,13 @@
 +++
-date = "2019-08-10T00:00:00+03:00"
-description = "Technical skills regarding computer repairing, software and networks installation etc."
+date = 2019-08-09T21:00:00Z
+description = "JavaScript, PHP, HTML, CSS, Python, Java, C#"
 draft = true
 location = ""
-moreContent = true
+moreContent = false
 postType = "CV"
 startFinishDate = ""
 subtitle = ""
 tabTitle = "Skills"
-title = "Computer Repair"
+title = "Programming"
 
 +++
-test
