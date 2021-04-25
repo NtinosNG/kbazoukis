@@ -1,5 +1,5 @@
 +++
-date = 2021-03-31T23:00:00Z
+date = 2021-02-01T00:00:00Z
 description = ""
 draft = true
 location = ""
@@ -11,12 +11,9 @@ tabTitle = "Skills"
 title = "IT Skills"
 
 +++
-- JavaScript
-- PHP
-- HTML
-- CSS
-- Python
-- Java
-- C#
+* Computer Repair
+* Networks Installation
+* Linux VPS/DNS Installation (LEMP)
+* Docker (beginner)
 
-**Links to projects will be added soon!!!**
+**Examples will be added soon!!!**
