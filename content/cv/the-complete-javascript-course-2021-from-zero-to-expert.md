@@ -1,7 +1,6 @@
 +++
 date = 2021-02-28T13:41:32Z
 description = "Instructor: Jonas Schmedtmann"
-draft = true
 location = "Online"
 moreContent = true
 postType = "CV"
