@@ -1,7 +1,6 @@
 +++
 date = 2019-08-08T21:00:00Z
 description = "Petrol Station Supervisor - Warehouse & Administrative Assistant"
-draft = true
 location = "Aigio, Greece"
 moreContent = true
 postType = "CV"
