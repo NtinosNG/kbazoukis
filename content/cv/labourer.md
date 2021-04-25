@@ -1,6 +1,7 @@
 +++
-date = "2019-08-09T00:00:00+03:00"
+date = 2019-08-07T09:10:44Z
 description = ""
+draft = true
 location = "Metsovo, Greece"
 moreContent = false
 postType = "CV"
