@@ -1,7 +1,6 @@
 +++
 date = 2021-01-01T10:00:00Z
 description = ""
-draft = true
 location = ""
 moreContent = false
 postType = "CV"
