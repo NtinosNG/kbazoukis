@@ -1,6 +1,7 @@
 +++
 date = 2020-02-02T10:00:00Z
 description = "Built company’s website"
+draft = true
 location = "London, UK"
 moreContent = true
 postType = "CV"
@@ -12,7 +13,7 @@ title = "Web Developer"
 +++
 ### Workflow:
 
-1. Gathered requirements from customer
+1. Gathered requirements from client
 
 2. Decided on dev tools (Hugo SSG, VScode etc)
 
