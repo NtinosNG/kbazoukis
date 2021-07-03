@@ -2,6 +2,6 @@
 
 ### _Find out who I am and what I have done_.
 
-This website was build with [HUGO](https://gohugo.io) static site generator and [**Self**](https://github.com/NtinosNG/self) theme and it is managed using [Forestry](https://forestry.io) cms.
+This website was build with [HUGO](https://gohugo.io) static site generator and the [**Self**](https://github.com/NtinosNG/self) theme. It is hosted on [**netlify**](https://netlify.com) and managed with [Forestry](https://forestry.io) cms.
 
 
