@@ -1,7 +1,5 @@
-# My Personal Website
+# Old portfolio website
 
-### _Find out who I am and what I have done_.
+I'd built this site for boosting my CV after I'd finished from Uni and was looking for my first job in software.
 
-This website was build with [HUGO](https://gohugo.io) SSG and the [**Self**](https://github.com/NtinosNG/self) theme. It is hosted on [**netlify**](https://netlify.com) and managed with [Forestry](https://forestry.io) cms.
-
-
+It was a theme ([**Self**](https://github.com/NtinosNG/self)) built completely from scratch using HTML/CSS/JS for [HUGO](https://gohugo.io) SSG. It was hosted on [**netlify**](https://netlify.com) and managed with [Forestry](https://forestry.io) CMS.
